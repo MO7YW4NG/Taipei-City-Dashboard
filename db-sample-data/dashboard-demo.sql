@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 15.10
--- Dumped by pg_dump version 15.12 (Ubuntu 15.12-1.pgdg22.04+1)
+-- Dumped from database version 16.4
+-- Dumped by pg_dump version 16.4
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -16,12 +16,102 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
+--
+-- Name: tiger; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA tiger;
+
+
+ALTER SCHEMA tiger OWNER TO postgres;
+
+--
+-- Name: tiger_data; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA tiger_data;
+
+
+ALTER SCHEMA tiger_data OWNER TO postgres;
+
+--
+-- Name: topology; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA topology;
+
+
+ALTER SCHEMA topology OWNER TO postgres;
+
+--
+-- Name: SCHEMA topology; Type: COMMENT; Schema: -; Owner: postgres
+--
+
+COMMENT ON SCHEMA topology IS 'PostGIS Topology schema';
+
+
+--
+-- Name: fuzzystrmatch; Type: EXTENSION; Schema: -; Owner: -
+--
+
+CREATE EXTENSION IF NOT EXISTS fuzzystrmatch WITH SCHEMA public;
+
+
+--
+-- Name: EXTENSION fuzzystrmatch; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION fuzzystrmatch IS 'determine similarities and distance between strings';
+
+
+--
+-- Name: postgis; Type: EXTENSION; Schema: -; Owner: -
+--
+
+CREATE EXTENSION IF NOT EXISTS postgis WITH SCHEMA public;
+
+
+--
+-- Name: EXTENSION postgis; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION postgis IS 'PostGIS geometry and geography spatial types and functions';
+
+
+--
+-- Name: postgis_tiger_geocoder; Type: EXTENSION; Schema: -; Owner: -
+--
+
+CREATE EXTENSION IF NOT EXISTS postgis_tiger_geocoder WITH SCHEMA tiger;
+
+
+--
+-- Name: EXTENSION postgis_tiger_geocoder; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION postgis_tiger_geocoder IS 'PostGIS tiger geocoder and reverse geocoder';
+
+
+--
+-- Name: postgis_topology; Type: EXTENSION; Schema: -; Owner: -
+--
+
+CREATE EXTENSION IF NOT EXISTS postgis_topology WITH SCHEMA topology;
+
+
+--
+-- Name: EXTENSION postgis_topology; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION postgis_topology IS 'PostGIS topology spatial types and functions';
+
+
 SET default_tablespace = '';
 
 SET default_table_access_method = heap;
 
 --
--- Name: bike_network_new_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: bike_network_new_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.bike_network_new_tpe (
@@ -44,8 +134,10 @@ CREATE TABLE public.bike_network_new_tpe (
 );
 
 
+ALTER TABLE public.bike_network_new_tpe OWNER TO postgres;
+
 --
--- Name: bike_network_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: bike_network_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.bike_network_new_tpe_ogc_fid_seq
@@ -57,15 +149,17 @@ CREATE SEQUENCE public.bike_network_new_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.bike_network_new_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: bike_network_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: bike_network_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.bike_network_new_tpe_ogc_fid_seq OWNED BY public.bike_network_new_tpe.ogc_fid;
 
 
 --
--- Name: bike_network_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: bike_network_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.bike_network_tpe (
@@ -88,8 +182,10 @@ CREATE TABLE public.bike_network_tpe (
 );
 
 
+ALTER TABLE public.bike_network_tpe OWNER TO postgres;
+
 --
--- Name: bike_network_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: bike_network_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.bike_network_tpe_ogc_fid_seq
@@ -101,15 +197,17 @@ CREATE SEQUENCE public.bike_network_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.bike_network_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: bike_network_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: bike_network_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.bike_network_tpe_ogc_fid_seq OWNED BY public.bike_network_tpe.ogc_fid;
 
 
 --
--- Name: bus_info_new_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: bus_info_new_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.bus_info_new_tpe (
@@ -133,8 +231,10 @@ CREATE TABLE public.bus_info_new_tpe (
 );
 
 
+ALTER TABLE public.bus_info_new_tpe OWNER TO postgres;
+
 --
--- Name: bus_info_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: bus_info_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.bus_info_new_tpe_ogc_fid_seq
@@ -146,15 +246,17 @@ CREATE SEQUENCE public.bus_info_new_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.bus_info_new_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: bus_info_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: bus_info_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.bus_info_new_tpe_ogc_fid_seq OWNED BY public.bus_info_new_tpe.ogc_fid;
 
 
 --
--- Name: bus_info_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: bus_info_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.bus_info_tpe (
@@ -178,8 +280,10 @@ CREATE TABLE public.bus_info_tpe (
 );
 
 
+ALTER TABLE public.bus_info_tpe OWNER TO postgres;
+
 --
--- Name: bus_info_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: bus_info_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.bus_info_tpe_ogc_fid_seq
@@ -191,15 +295,35 @@ CREATE SEQUENCE public.bus_info_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.bus_info_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: bus_info_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: bus_info_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.bus_info_tpe_ogc_fid_seq OWNED BY public.bus_info_tpe.ogc_fid;
 
 
 --
--- Name: city_age_distribution_newtaipei; Type: TABLE; Schema: public; Owner: -
+-- Name: business_district; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.business_district (
+    district text,
+    business_district text,
+    chairman_of_the_board text,
+    tel text,
+    addr text,
+    area text,
+    lng double precision,
+    lat double precision
+);
+
+
+ALTER TABLE public.business_district OWNER TO postgres;
+
+--
+-- Name: city_age_distribution_newtaipei; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.city_age_distribution_newtaipei (
@@ -241,8 +365,10 @@ CREATE TABLE public.city_age_distribution_newtaipei (
 );
 
 
+ALTER TABLE public.city_age_distribution_newtaipei OWNER TO postgres;
+
 --
--- Name: city_age_distribution_taipei; Type: TABLE; Schema: public; Owner: -
+-- Name: city_age_distribution_taipei; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.city_age_distribution_taipei (
@@ -284,8 +410,10 @@ CREATE TABLE public.city_age_distribution_taipei (
 );
 
 
+ALTER TABLE public.city_age_distribution_taipei OWNER TO postgres;
+
 --
--- Name: dependency_ratio_and_aging_index_new_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_new_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.dependency_ratio_and_aging_index_new_tpe (
@@ -307,8 +435,10 @@ CREATE TABLE public.dependency_ratio_and_aging_index_new_tpe (
 );
 
 
+ALTER TABLE public.dependency_ratio_and_aging_index_new_tpe OWNER TO postgres;
+
 --
--- Name: dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq
@@ -320,15 +450,17 @@ CREATE SEQUENCE public.dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq OWNED BY public.dependency_ratio_and_aging_index_new_tpe.ogc_fid;
 
 
 --
--- Name: dependency_ratio_and_aging_index_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.dependency_ratio_and_aging_index_tpe (
@@ -350,8 +482,10 @@ CREATE TABLE public.dependency_ratio_and_aging_index_tpe (
 );
 
 
+ALTER TABLE public.dependency_ratio_and_aging_index_tpe OWNER TO postgres;
+
 --
--- Name: dependency_ratio_and_aging_index_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.dependency_ratio_and_aging_index_tpe_ogc_fid_seq
@@ -363,15 +497,17 @@ CREATE SEQUENCE public.dependency_ratio_and_aging_index_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.dependency_ratio_and_aging_index_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: dependency_ratio_and_aging_index_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.dependency_ratio_and_aging_index_tpe_ogc_fid_seq OWNED BY public.dependency_ratio_and_aging_index_tpe.ogc_fid;
 
 
 --
--- Name: employment_age_structure_new_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: employment_age_structure_new_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.employment_age_structure_new_tpe (
@@ -386,8 +522,10 @@ CREATE TABLE public.employment_age_structure_new_tpe (
 );
 
 
+ALTER TABLE public.employment_age_structure_new_tpe OWNER TO postgres;
+
 --
--- Name: employment_age_structure_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: employment_age_structure_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.employment_age_structure_new_tpe_ogc_fid_seq
@@ -399,15 +537,17 @@ CREATE SEQUENCE public.employment_age_structure_new_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.employment_age_structure_new_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: employment_age_structure_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: employment_age_structure_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.employment_age_structure_new_tpe_ogc_fid_seq OWNED BY public.employment_age_structure_new_tpe.ogc_fid;
 
 
 --
--- Name: employment_age_structure_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: employment_age_structure_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.employment_age_structure_tpe (
@@ -422,8 +562,10 @@ CREATE TABLE public.employment_age_structure_tpe (
 );
 
 
+ALTER TABLE public.employment_age_structure_tpe OWNER TO postgres;
+
 --
--- Name: employment_age_structure_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: employment_age_structure_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.employment_age_structure_tpe_ogc_fid_seq
@@ -435,15 +577,43 @@ CREATE SEQUENCE public.employment_age_structure_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.employment_age_structure_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: employment_age_structure_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: employment_age_structure_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.employment_age_structure_tpe_ogc_fid_seq OWNED BY public.employment_age_structure_tpe.ogc_fid;
 
 
 --
--- Name: population_age_distribution_new_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: friendly_store_ntp; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.friendly_store_ntp (
+    x text,
+    y text,
+    data numeric
+);
+
+
+ALTER TABLE public.friendly_store_ntp OWNER TO postgres;
+
+--
+-- Name: friendly_store_tp; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.friendly_store_tp (
+    x text,
+    y text,
+    data numeric
+);
+
+
+ALTER TABLE public.friendly_store_tp OWNER TO postgres;
+
+--
+-- Name: population_age_distribution_new_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.population_age_distribution_new_tpe (
@@ -463,8 +633,10 @@ CREATE TABLE public.population_age_distribution_new_tpe (
 );
 
 
+ALTER TABLE public.population_age_distribution_new_tpe OWNER TO postgres;
+
 --
--- Name: population_age_distribution_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: population_age_distribution_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.population_age_distribution_new_tpe_ogc_fid_seq
@@ -476,15 +648,17 @@ CREATE SEQUENCE public.population_age_distribution_new_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.population_age_distribution_new_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: population_age_distribution_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: population_age_distribution_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.population_age_distribution_new_tpe_ogc_fid_seq OWNED BY public.population_age_distribution_new_tpe.ogc_fid;
 
 
 --
--- Name: population_age_distribution_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: population_age_distribution_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.population_age_distribution_tpe (
@@ -504,8 +678,10 @@ CREATE TABLE public.population_age_distribution_tpe (
 );
 
 
+ALTER TABLE public.population_age_distribution_tpe OWNER TO postgres;
+
 --
--- Name: population_age_distribution_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: population_age_distribution_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.population_age_distribution_tpe_ogc_fid_seq
@@ -517,16 +693,43 @@ CREATE SEQUENCE public.population_age_distribution_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.population_age_distribution_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: population_age_distribution_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: population_age_distribution_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.population_age_distribution_tpe_ogc_fid_seq OWNED BY public.population_age_distribution_tpe.ogc_fid;
 
 
+--
+-- Name: store_rent_ntp; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.store_rent_ntp (
+    x_axis text,
+    y_axis text,
+    data numeric
+);
+
+
+ALTER TABLE public.store_rent_ntp OWNER TO postgres;
 
 --
--- Name: tran_ubike_realtime_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: store_rent_tp; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.store_rent_tp (
+    x_axis text,
+    y_axis text,
+    data numeric
+);
+
+
+ALTER TABLE public.store_rent_tp OWNER TO postgres;
+
+--
+-- Name: tran_ubike_realtime_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.tran_ubike_realtime_ogc_fid_seq
@@ -538,17 +741,10 @@ CREATE SEQUENCE public.tran_ubike_realtime_ogc_fid_seq
     CACHE 1;
 
 
---
--- Name: tran_ubike_realtime_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
---
-
-ALTER SEQUENCE public.tran_ubike_realtime_ogc_fid_seq OWNED BY public.tran_ubike_realtime.ogc_fid;
-
-
-
+ALTER SEQUENCE public.tran_ubike_realtime_ogc_fid_seq OWNER TO postgres;
 
 --
--- Name: tran_ubike_realtime; Type: TABLE; Schema: public; Owner: -
+-- Name: tran_ubike_realtime; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.tran_ubike_realtime (
@@ -567,8 +763,10 @@ CREATE TABLE public.tran_ubike_realtime (
 );
 
 
+ALTER TABLE public.tran_ubike_realtime OWNER TO postgres;
+
 --
--- Name: tran_ubike_realtime_new_tpe; Type: TABLE; Schema: public; Owner: -
+-- Name: tran_ubike_realtime_new_tpe; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.tran_ubike_realtime_new_tpe (
@@ -587,8 +785,10 @@ CREATE TABLE public.tran_ubike_realtime_new_tpe (
 );
 
 
+ALTER TABLE public.tran_ubike_realtime_new_tpe OWNER TO postgres;
+
 --
--- Name: tran_ubike_realtime_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: -
+-- Name: tran_ubike_realtime_new_tpe_ogc_fid_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
 CREATE SEQUENCE public.tran_ubike_realtime_new_tpe_ogc_fid_seq
@@ -600,92 +800,94 @@ CREATE SEQUENCE public.tran_ubike_realtime_new_tpe_ogc_fid_seq
     CACHE 1;
 
 
+ALTER SEQUENCE public.tran_ubike_realtime_new_tpe_ogc_fid_seq OWNER TO postgres;
+
 --
--- Name: tran_ubike_realtime_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: -
+-- Name: tran_ubike_realtime_new_tpe_ogc_fid_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
 
 ALTER SEQUENCE public.tran_ubike_realtime_new_tpe_ogc_fid_seq OWNED BY public.tran_ubike_realtime_new_tpe.ogc_fid;
 
 
 --
--- Name: bike_network_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: bike_network_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bike_network_new_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.bike_network_new_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: bike_network_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: bike_network_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bike_network_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.bike_network_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: bus_info_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: bus_info_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bus_info_new_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.bus_info_new_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: bus_info_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: bus_info_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bus_info_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.bus_info_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: dependency_ratio_and_aging_index_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.dependency_ratio_and_aging_index_new_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: dependency_ratio_and_aging_index_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.dependency_ratio_and_aging_index_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.dependency_ratio_and_aging_index_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: employment_age_structure_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: employment_age_structure_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.employment_age_structure_new_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.employment_age_structure_new_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: employment_age_structure_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: employment_age_structure_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.employment_age_structure_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.employment_age_structure_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: population_age_distribution_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: population_age_distribution_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.population_age_distribution_new_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.population_age_distribution_new_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: population_age_distribution_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: population_age_distribution_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.population_age_distribution_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.population_age_distribution_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Name: tran_ubike_realtime_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: -
+-- Name: tran_ubike_realtime_new_tpe ogc_fid; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.tran_ubike_realtime_new_tpe ALTER COLUMN ogc_fid SET DEFAULT nextval('public.tran_ubike_realtime_new_tpe_ogc_fid_seq'::regclass);
 
 
 --
--- Data for Name: bike_network_new_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: bike_network_new_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.bike_network_new_tpe (data_time, route_name, authority_name, city_code, city, town, road_section_start, road_section_end, direction, cycling_type, cycling_length, finished_time, update_time, _ctime, _mtime, ogc_fid) FROM stdin;
@@ -904,7 +1106,7 @@ COPY public.bike_network_new_tpe (data_time, route_name, authority_name, city_co
 
 
 --
--- Data for Name: bike_network_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: bike_network_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.bike_network_tpe (data_time, route_name, authority_name, city_code, city, town, road_section_start, road_section_end, direction, cycling_type, cycling_length, finished_time, update_time, _ctime, _mtime, ogc_fid) FROM stdin;
@@ -1400,7 +1602,7 @@ COPY public.bike_network_tpe (data_time, route_name, authority_name, city_code, 
 
 
 --
--- Data for Name: bus_info_new_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: bus_info_new_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.bus_info_new_tpe (data_time, plate_numb, operator_id, operator_code, operator_no, vehicle_class, vehicle_type, card_reader_layout, is_electric, is_hybrid, is_low_floor, has_lift_or_ramp, has_wifi, inbox_id, _ctime, _mtime, ogc_fid) FROM stdin;
@@ -4244,7 +4446,7 @@ COPY public.bus_info_new_tpe (data_time, plate_numb, operator_id, operator_code,
 
 
 --
--- Data for Name: bus_info_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: bus_info_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.bus_info_tpe (data_time, plate_numb, operator_id, operator_code, operator_no, vehicle_class, vehicle_type, card_reader_layout, is_electric, is_hybrid, is_low_floor, has_lift_or_ramp, has_wifi, inbox_id, _ctime, _mtime, ogc_fid) FROM stdin;
@@ -5023,6 +5225,7 @@ COPY public.bus_info_tpe (data_time, plate_numb, operator_id, operator_code, ope
 2025-03-17 19:11:07+00	340-U3	800	MetropolitanBus	0303	1	1	2	0	0	1	1	0	104022513	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	105702
 2025-03-17 19:11:07+00	341-FU	5100	ZhinanBus	0907	1	1	2	0	0	1	1	1	104023322	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	105703
 2025-03-17 19:11:07+00	341-FY	800	MetropolitanBus	0303	1	1	2	0	0	1	1	0	104027507	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	105704
+2025-03-17 19:11:07+00	850-FX	700	ShinShinBus	0813	1	1	2	0	0	1	1	0	104021346	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106840
 2025-03-17 19:11:07+00	341-U3	800	MetropolitanBus	0303	1	1	2	0	0	1	1	0	104019200	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	105705
 2025-03-17 19:11:07+00	342-FP	1100	DananBus	0307	1	1	2	0	0	1	1	0	104027820	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	105706
 2025-03-17 19:11:07+00	342-FU	5100	ZhinanBus	0907	1	1	2	0	0	1	1	1	104021676	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	105707
@@ -6158,7 +6361,6 @@ COPY public.bus_info_tpe (data_time, plate_numb, operator_id, operator_code, ope
 2025-03-17 19:11:07+00	849-U3	800	MetropolitanBus	0303	1	1	2	0	0	1	1	0	104026233	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106837
 2025-03-17 19:11:07+00	850-FR	100	TaipeiBus	1407	1	1	0	0	0	1	0	0	104023607	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106838
 2025-03-17 19:11:07+00	850-FT	5300	KuangHuaBus	0601	1	1	2	0	0	1	1	0	104027303	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106839
-2025-03-17 19:11:07+00	850-FX	700	ShinShinBus	0813	1	1	2	0	0	1	1	0	104021346	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106840
 2025-03-17 19:11:07+00	850-U3	800	MetropolitanBus	0303	1	1	2	0	0	1	1	0	104020830	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106841
 2025-03-17 19:11:07+00	851-U3	800	MetropolitanBus	0303	1	1	2	0	0	1	1	0	104024263	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106842
 2025-03-17 19:11:07+00	852-U3	800	MetropolitanBus	0303	1	1	2	0	0	1	1	0	104017941	2025-03-17 20:00:40.179013+00	2025-03-17 20:00:40.179013+00	106843
@@ -8140,7 +8342,96 @@ COPY public.bus_info_tpe (data_time, plate_numb, operator_id, operator_code, ope
 
 
 --
--- Data for Name: city_age_distribution_newtaipei; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: business_district; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.business_district (district, business_district, chairman_of_the_board, tel, addr, area, lng, lat) FROM stdin;
+中山區	中山北路	高志榮	0225927523	臺北市大同區寧夏路54號	臺北	121.515333	25.056563
+中山區	南西心中山	李品濤	0225967618	臺北市中山區中山北路二段20巷6-1號4樓	臺北	121.521676	25.053473
+中山區	四平陽光(商圈)	陳永成	0225018531	臺北市四平街83號1樓	臺北	121.53448	25.053712
+中山區	大正町商圈	吳美瑩	0225518951	臺北市中山區林森北路100號6樓之5	臺北	121.524821	25.050484
+中山區	大直(商圈)	曹邦全	0225321000#315	臺北市中山區明水路659號1樓	臺北	121.550665	25.083634
+中山區	晴光(商圈)	李豐運	0225925899	臺北市中山區林森北路556號1樓	臺北	121.525538	25.06433
+中山區	條通(商圈)	莊錫弘	0225626434	台北市松山區八德路四段245巷52弄21號1樓	臺北	121.563089	25.050436
+中山區	民族濱江汽車	許嘉濬	0227953799	臺北市內湖區金湖路1號3樓	臺北	121.595039	25.08389
+中正區	中華路影音(商圈)	黃意婷	0223812712	台北市中正區中華路一段29之4號1樓	臺北	121.509676	25.045559
+中正區	北門相機(商圈)	楊純	0223142312	臺北市中正區博愛路60號6樓之A左	臺北	121.511259	25.045567
+中正區	南昌家具(商圈)	黃世耀	0223581227	臺北市南昌路二段67號	臺北	121.520495	25.027436
+中正區	大光華(商圈)	蔡若芸	0233222995	臺北市中正區八德路一段43巷28號1樓	臺北	121.531538	25.044691
+中正區	愛國東路婚紗(商圈)	李俊龍	0223512151	台北市愛國東路68號	臺北	121.51934	25.033638
+中正區	榮町商圈	洪明通	0223618368	臺北市中正區衡陽路74號	臺北	121.511183	25.042162
+中正區	沅陵街(商圈)	廖鴻昌	0223111606	臺北市中正區沅陵街2號	臺北	121.512925	25.042757
+中正區	臺大公館(商圈)	林全義	0223671464	臺北市中正區羅斯福路4段52巷16弄5號	臺北	121.533728	25.014498
+中正區	重慶南路書店(商圈)	沈榮裕	0223312666	臺北市中正區重慶南路一段105號2樓	臺北	121.513327	25.042929
+信義區	五分埔(商圈)	陳永昌	0227641381	臺北市永吉路517巷1弄10號	臺北	121.579615	25.045795
+信義區	吳興街(商圈)	游新章	0227370194	臺北市信義區吳興街147號	臺北	121.561944	25.029254
+內湖區	內湖737(商圈)	吳上煊	0287975933	臺北市內湖路一段737 巷38 弄2 號B1	臺北	0	0
+內湖區	西湖(商圈)	劉宜敏	0227989901	臺北市內湖區內湖路一段285巷31號	臺北	121.567004	25.083625
+北投區	新北投溫泉(商圈)	林致宇	0228955418	臺北市光明路224號1樓	臺北	121.505039	25.136177
+北投區	石牌捷運(商圈)	蕭淑霞	0228264119	臺北市北投區石牌路二段68巷18號1樓	臺北	121.516653	25.116261
+北投區	行義路溫泉美食(商圈)	游騰在	0225992875	臺北市行義路269號	臺北	121.528054	25.137716
+士林區	士林捷運商圈	何逸松	0228366957	臺北市士林區中山北路五段699巷20號1樓	臺北	121.526228	25.097608
+士林區	士林觀光夜市(商圈)	吳忠達	0228820986	臺北市士林區大西路6號1樓	臺北	121.524157	25.089739
+士林區	天母(商圈)	黃唐笛	0228761189	臺北市士林區天母北路10號	臺北	121.52621	25.119305
+士林區	承德路中古汽車(商圈)	李寶星	0228835356	臺北市承德路4段257號1樓	臺北	121.520697	25.089525
+士林區	蘭雅(商圈)	賴俊宇	0979159111	台北市士林區中山北路六段315巷50號	臺北	0	0
+大同區	圓山(商圈)	呂映慈	0225992905	臺北市大同區酒泉街10巷25號 	臺北	0	0
+大同區	圓環太平	蘇武賢	0987879377	臺北市大同區延平北路二段34號1樓	臺北	121.511613	25.054834
+大同區	大龍峒(商圈)	張賦脈	0225910582	臺北市大同區哈密街96號	臺北	121.514714	25.072906
+大同區	寧夏夜市(商圈)	林定國	0225580957	臺北市大同區寧夏路58號2樓	臺北	121.515356	25.056647
+大同區	後站(商圈)	許樹勳	0225550858	臺北市大同區重慶北路一段27巷15號1樓	臺北	121.514009	25.050138
+大同區	朝陽服飾材料(商圈)	呂國維	0225523101	臺北市大同區重慶北路二段46巷6號1樓\t	臺北	121.513783	25.055284
+大同區	臺北大橋頭延三(商圈)	施懿珊	0225853129	臺北市延平北路3段124號	臺北	121.510835	25.06756
+大同區	華陰街(商圈)	李永進	0225592500#101	臺北市大同區重慶北路一段30號6樓	臺北	121.513555	25.050861
+大同區	赤峰	陳靜筠	0225598984	臺北市大同區赤峰街44巷13號1樓	臺北	121.519414	25.057088
+大同區	迪化街(商圈)	鄭玟和	0225501390	臺北市大同區歸綏街297號	臺北	121.50901	25.058216
+大安區	文昌家具(商圈)	劉松雄	0227074529	臺北市大安區文昌街248號	臺北	121.555663	25.032239
+大安區	東區商圈	簡國維	0287716300	台北市大安區復興南路135巷17號5樓	臺北	121.545133	25.042708
+大安區	永康(商圈)	李慶隆	0223246472	台北市大安區麗水街3號2樓	臺北	121.529038	25.032246
+大安區	龍泉(商圈)	孫茂荃	0287976128	臺北市大安區泰順街40巷34號地樓	臺北	121.52973	25.024191
+文山區	萬芳(商圈)	曾瑞城	0229355929	臺北市文山區興隆路三段112巷2弄36號5樓	臺北	121.556121	24.999701
+文山區	貓空(商圈)	張振隆	0229395615	臺北市文山區指南路三段38巷37之1號1樓	臺北	121.591787	24.968675
+松山區	民生社區	秦慧珠	0287863256	臺北市松山區民生東路五段178號2樓之1	臺北	121.563032	25.058278
+萬華區	加蚋(商圈)	周孟儒	0223096099	臺北市萬華區長泰街7號1樓	臺北	121.501245	25.023026
+萬華區	艋舺(商圈)	林韋志	0223065869	臺北市萬華區西園路一段282巷25號3樓之5	臺北	121.498662	25.033774
+萬華區	艋舺(夜市)	李昭成	0223319570	臺北市萬華區華西街21巷9號1樓	臺北	121.499056	25.038712
+萬華區	萬華	洪文和	0223065988#1	臺北市萬華區三水街62號1樓	臺北	121.50237	25.036
+萬華區	西門町(商圈)	洪明通	0223754205	臺北市萬華區漢中街135號11樓之1	臺北	121.50739	25.041803
+深坑區	新北市商圈聯合發展協會	黃建強	09399800900	新北市深坑區深坑街3巷2號2樓	新北	121.616713	25.002448
+鶯歌區	鶯歌商圈	張素燕	09361707930	新北市鶯歌區重慶街69號	新北	121.349069	24.951754
+蘆洲區	蘆洲廟口商圈	林榮宗	02228391900	新北市蘆洲區得勝街131號	新北	121.472138	25.083234
+石碇區	石碇商圈	林淑芳	09312773800	新北市石碇區石碇東街51號	新北	121.660906	24.990662
+永和區	韓國街商圈	彭守喜	09332234730	新北市永和區中興街9號	新北	121.515683	25.012084
+平溪區	平溪魅力商圈	王聖凱	09870918310	新北市平溪區靜安路2段390號	新北	121.738533	25.024429
+淡水區	淡水老街商圈	盧育佑	09263777470	新北市淡水區中正路 11 巷 8 號	新北	0	0
+板橋區	板橋府中商圈	劉朝翔	09559893300	新北市板橋區重慶路10號8樓	新北	121.460708	25.007954
+新莊區	新莊廟街商圈	孫松慶	09250956770	新北市新莊區武前街24號	新北	121.45022	25.032855
+三峽區	三峽民權老街商圈	林豐斌	09131373230	新北市三峽區民權街75號	新北	121.369497	24.933019
+瑞芳區	九份老街商圈	蘇宗德	\N	新北市瑞芳區豎崎路15號	新北	0	0
+金山區	金山商圈	羅國旺	09721638730	新北市金山區金包里街74號	新北	121.63883	25.221571
+深坑區	深坑老街商圈	陳寶桂	09351423160	新北市深坑區昇高里文山路2段30巷28號	新北	121.614096	24.999639
+雙溪區	雙溪商圈	莊豪雄	09100905890	新北市雙溪區梅竹蹊67號	新北	121.846937	25.031012
+萬里區	萬里商圈	林簿	\N	新北市萬里區瑪鋉路221號	新北	121.689661	25.179791
+烏來區	烏來商圈	洪楊寶滿	09320669240	新北市烏來區烏來街34號	新北	121.551198	24.863485
+坪林區	坪林商圈	高明富	09362077980	新北市坪林區北宜路8段217號	新北	121.708703	24.934984
+八里區	八里左岸商圈	邱毓奇	09527752850	新北市八里區忠孝路133號1樓	新北	121.424109	25.16053
+三重區	三重碧華布街商圈	張家偉	09351601880	新北市三重區碧華街113號	新北	121.485789	25.081897
+三峽區	三峽三角湧商圈	顏明玉	09533488180	新北市三峽區民生街170號	新北	121.37136	24.934923
+三峽區	三峽秀川商圈	鄭志宏	09886333690	新北市三峽區忠孝街24號	新北	121.37085	24.934086
+中和區	中和華新街商圈	張標材	09285150360	新北市中和區華新街92號	新北	121.508504	24.983115
+林口區	林口建城商圈	謝牡丹	09362691950	新北市林口區信義路206號13樓	新北	121.377949	25.080818
+萬里區	野柳商圈	陳丕展	09155118380	新北市萬里區瑪鋉路221號	新北	121.689661	25.179791
+平溪區	菁桐商圈	李溫泉	09193912510	新北市平溪區菁桐街165號	新北	121.723125	25.023509
+蘆洲區	猴硐商圈	李盈序	09288817380	新北市蘆洲區中山二路182號3樓	新北	121.470533	25.080673
+新莊區	新莊副都心商圈	吳毓耕	09091238880	新北市新莊區新北大道4段135號22樓	新北	121.446679	25.058852
+板橋區	亞東商圈	洪啟峰	09523829330	新北市板橋區四川路二段16巷10號5樓	新北	121.456114	24.997339
+瑞芳區	瑞芳老街商圈	柯瑞和	09101405450	新北市瑞芳區瑞芳街50號	新北	121.805895	25.109722
+八里區	八里渡船頭商圈	周曼芝	09397181270	新北市八里區渡船頭街20號	新北	121.434797	25.158445
+\.
+
+
+--
+-- Data for Name: city_age_distribution_newtaipei; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.city_age_distribution_newtaipei (percent2, percent3, percent4, percent5, percent6, percent7, percent8, percent9, percent10, percent11, percent12, percent13, percent14, percent15, percent16, percent17, percent18, percent19, percent20, percent21, percent22, percent23, percent24, percent25, percent26, percent27, percent28, percent29, percent30, percent31, percent32, percent33, "年份", "區域別", "統計類型") FROM stdin;
@@ -10308,7 +10599,7 @@ COPY public.city_age_distribution_newtaipei (percent2, percent3, percent4, perce
 
 
 --
--- Data for Name: city_age_distribution_taipei; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: city_age_distribution_taipei; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.city_age_distribution_taipei ("年份", "區域別", "統計類型", percent2, percent3, percent4, percent5, percent6, percent7, percent8, percent9, percent10, percent11, percent12, percent13, percent14, percent15, percent16, percent17, percent18, percent19, percent20, percent21, percent22, percent23, percent24, percent25, percent26, percent27, percent28, percent29, percent30, percent31, percent32, percent33) FROM stdin;
@@ -10589,7 +10880,7 @@ COPY public.city_age_distribution_taipei ("年份", "區域別", "統計類型",
 
 
 --
--- Data for Name: dependency_ratio_and_aging_index_new_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: dependency_ratio_and_aging_index_new_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.dependency_ratio_and_aging_index_new_tpe (ogc_fid, end_of_year, young_population, young_population_percentage, working_age_population, working_age_population_percentage, elderly_population, elderly_population_percentage, elderly_dependency_ratio, youth_dependency_ratio, total_dependency_ratio, aging_index, _ctime, _mtime, data_time) FROM stdin;
@@ -10609,7 +10900,7 @@ COPY public.dependency_ratio_and_aging_index_new_tpe (ogc_fid, end_of_year, youn
 
 
 --
--- Data for Name: dependency_ratio_and_aging_index_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: dependency_ratio_and_aging_index_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.dependency_ratio_and_aging_index_tpe (ogc_fid, end_of_year, young_population, young_population_percentage, working_age_population, working_age_population_percentage, elderly_population, elderly_population_percentage, elderly_dependency_ratio, youth_dependency_ratio, total_dependency_ratio, aging_index, _ctime, _mtime, data_time) FROM stdin;
@@ -10672,7 +10963,7 @@ COPY public.dependency_ratio_and_aging_index_tpe (ogc_fid, end_of_year, young_po
 
 
 --
--- Data for Name: employment_age_structure_new_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: employment_age_structure_new_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.employment_age_structure_new_tpe (ogc_fid, year, gender, age_structure, percentage, data_time, _ctime, _mtime) FROM stdin;
@@ -11040,7 +11331,7 @@ COPY public.employment_age_structure_new_tpe (ogc_fid, year, gender, age_structu
 
 
 --
--- Data for Name: employment_age_structure_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: employment_age_structure_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.employment_age_structure_tpe (ogc_fid, year, gender, age_structure, percentage, data_time, _ctime, _mtime) FROM stdin;
@@ -12668,7 +12959,679 @@ COPY public.employment_age_structure_tpe (ogc_fid, year, gender, age_structure, 
 
 
 --
--- Data for Name: population_age_distribution_new_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: friendly_store_ntp; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.friendly_store_ntp (x, y, data) FROM stdin;
+新莊區	英文友善	0
+新莊區	日文友善	0
+新莊區	韓文友善	0
+新莊區	行動裝置充電	0
+新莊區	無障礙友善	0
+新莊區	性別友善	0
+新莊區	便利支付	0
+新莊區	素食	0
+新莊區	友善廁所	0
+新莊區	公平貿易友善	0
+新莊區	Free WiFi	0
+新莊區	自行車友善	0
+新莊區	哺集乳友善	0
+新莊區	穆斯林友善	0
+新莊區	月經友善	0
+新莊區	友善項目總計	0
+淡水區	英文友善	1
+淡水區	日文友善	0
+淡水區	韓文友善	0
+淡水區	行動裝置充電	1
+淡水區	無障礙友善	1
+淡水區	性別友善	1
+淡水區	便利支付	1
+淡水區	素食	0
+淡水區	友善廁所	1
+淡水區	公平貿易友善	0
+淡水區	Free WiFi	1
+淡水區	自行車友善	0
+淡水區	哺集乳友善	0
+淡水區	穆斯林友善	0
+淡水區	月經友善	0
+淡水區	友善項目總計	7
+汐止區	英文友善	0
+汐止區	日文友善	0
+汐止區	韓文友善	0
+汐止區	行動裝置充電	0
+汐止區	無障礙友善	0
+汐止區	性別友善	0
+汐止區	便利支付	0
+汐止區	素食	0
+汐止區	友善廁所	0
+汐止區	公平貿易友善	0
+汐止區	Free WiFi	0
+汐止區	自行車友善	0
+汐止區	哺集乳友善	0
+汐止區	穆斯林友善	0
+汐止區	月經友善	0
+汐止區	友善項目總計	0
+板橋區	英文友善	0
+板橋區	日文友善	0
+板橋區	韓文友善	0
+板橋區	行動裝置充電	0
+板橋區	無障礙友善	0
+板橋區	性別友善	0
+板橋區	便利支付	0
+板橋區	素食	0
+板橋區	友善廁所	0
+板橋區	公平貿易友善	0
+板橋區	Free WiFi	0
+板橋區	自行車友善	0
+板橋區	哺集乳友善	0
+板橋區	穆斯林友善	0
+板橋區	月經友善	0
+板橋區	友善項目總計	0
+三重區	英文友善	0
+三重區	日文友善	0
+三重區	韓文友善	0
+三重區	行動裝置充電	0
+三重區	無障礙友善	0
+三重區	性別友善	0
+三重區	便利支付	0
+三重區	素食	0
+三重區	友善廁所	0
+三重區	公平貿易友善	0
+三重區	Free WiFi	0
+三重區	自行車友善	0
+三重區	哺集乳友善	0
+三重區	穆斯林友善	0
+三重區	月經友善	0
+三重區	友善項目總計	0
+樹林區	英文友善	0
+樹林區	日文友善	0
+樹林區	韓文友善	0
+樹林區	行動裝置充電	0
+樹林區	無障礙友善	0
+樹林區	性別友善	0
+樹林區	便利支付	0
+樹林區	素食	0
+樹林區	友善廁所	0
+樹林區	公平貿易友善	0
+樹林區	Free WiFi	0
+樹林區	自行車友善	0
+樹林區	哺集乳友善	0
+樹林區	穆斯林友善	0
+樹林區	月經友善	0
+樹林區	友善項目總計	0
+土城區	英文友善	0
+土城區	日文友善	0
+土城區	韓文友善	0
+土城區	行動裝置充電	0
+土城區	無障礙友善	0
+土城區	性別友善	0
+土城區	便利支付	0
+土城區	素食	0
+土城區	友善廁所	0
+土城區	公平貿易友善	0
+土城區	Free WiFi	0
+土城區	自行車友善	0
+土城區	哺集乳友善	0
+土城區	穆斯林友善	0
+土城區	月經友善	0
+土城區	友善項目總計	0
+蘆洲區	英文友善	0
+蘆洲區	日文友善	0
+蘆洲區	韓文友善	0
+蘆洲區	行動裝置充電	0
+蘆洲區	無障礙友善	0
+蘆洲區	性別友善	0
+蘆洲區	便利支付	0
+蘆洲區	素食	0
+蘆洲區	友善廁所	0
+蘆洲區	公平貿易友善	0
+蘆洲區	Free WiFi	0
+蘆洲區	自行車友善	0
+蘆洲區	哺集乳友善	0
+蘆洲區	穆斯林友善	0
+蘆洲區	月經友善	0
+蘆洲區	友善項目總計	0
+中和區	英文友善	0
+中和區	日文友善	0
+中和區	韓文友善	0
+中和區	行動裝置充電	0
+中和區	無障礙友善	0
+中和區	性別友善	0
+中和區	便利支付	0
+中和區	素食	0
+中和區	友善廁所	0
+中和區	公平貿易友善	0
+中和區	Free WiFi	0
+中和區	自行車友善	0
+中和區	哺集乳友善	0
+中和區	穆斯林友善	0
+中和區	月經友善	0
+中和區	友善項目總計	0
+永和區	英文友善	0
+永和區	日文友善	0
+永和區	韓文友善	0
+永和區	行動裝置充電	0
+永和區	無障礙友善	0
+永和區	性別友善	0
+永和區	便利支付	0
+永和區	素食	0
+永和區	友善廁所	0
+永和區	公平貿易友善	0
+永和區	Free WiFi	0
+永和區	自行車友善	0
+永和區	哺集乳友善	0
+永和區	穆斯林友善	0
+永和區	月經友善	0
+永和區	友善項目總計	0
+新店區	英文友善	0
+新店區	日文友善	0
+新店區	韓文友善	0
+新店區	行動裝置充電	0
+新店區	無障礙友善	0
+新店區	性別友善	0
+新店區	便利支付	0
+新店區	素食	0
+新店區	友善廁所	0
+新店區	公平貿易友善	0
+新店區	Free WiFi	0
+新店區	自行車友善	0
+新店區	哺集乳友善	0
+新店區	穆斯林友善	0
+新店區	月經友善	0
+新店區	友善項目總計	0
+鶯歌區	英文友善	2
+鶯歌區	日文友善	1
+鶯歌區	韓文友善	0
+鶯歌區	行動裝置充電	1
+鶯歌區	無障礙友善	1
+鶯歌區	性別友善	2
+鶯歌區	便利支付	2
+鶯歌區	素食	0
+鶯歌區	友善廁所	1
+鶯歌區	公平貿易友善	0
+鶯歌區	Free WiFi	2
+鶯歌區	自行車友善	1
+鶯歌區	哺集乳友善	1
+鶯歌區	穆斯林友善	0
+鶯歌區	月經友善	1
+鶯歌區	友善項目總計	15
+三峽區	英文友善	0
+三峽區	日文友善	0
+三峽區	韓文友善	0
+三峽區	行動裝置充電	0
+三峽區	無障礙友善	0
+三峽區	性別友善	0
+三峽區	便利支付	0
+三峽區	素食	0
+三峽區	友善廁所	0
+三峽區	公平貿易友善	0
+三峽區	Free WiFi	0
+三峽區	自行車友善	0
+三峽區	哺集乳友善	0
+三峽區	穆斯林友善	0
+三峽區	月經友善	0
+三峽區	友善項目總計	0
+瑞芳區	英文友善	1
+瑞芳區	日文友善	1
+瑞芳區	韓文友善	1
+瑞芳區	行動裝置充電	1
+瑞芳區	無障礙友善	1
+瑞芳區	性別友善	1
+瑞芳區	便利支付	0
+瑞芳區	素食	0
+瑞芳區	友善廁所	1
+瑞芳區	公平貿易友善	0
+瑞芳區	Free WiFi	0
+瑞芳區	自行車友善	0
+瑞芳區	哺集乳友善	1
+瑞芳區	穆斯林友善	0
+瑞芳區	月經友善	0
+瑞芳區	友善項目總計	8
+五股區	英文友善	1
+五股區	日文友善	1
+五股區	韓文友善	1
+五股區	行動裝置充電	1
+五股區	無障礙友善	1
+五股區	性別友善	1
+五股區	便利支付	0
+五股區	素食	0
+五股區	友善廁所	1
+五股區	公平貿易友善	0
+五股區	Free WiFi	1
+五股區	自行車友善	1
+五股區	哺集乳友善	1
+五股區	穆斯林友善	1
+五股區	月經友善	1
+五股區	友善項目總計	12
+泰山區	英文友善	0
+泰山區	日文友善	0
+泰山區	韓文友善	0
+泰山區	行動裝置充電	0
+泰山區	無障礙友善	0
+泰山區	性別友善	0
+泰山區	便利支付	0
+泰山區	素食	0
+泰山區	友善廁所	0
+泰山區	公平貿易友善	0
+泰山區	Free WiFi	0
+泰山區	自行車友善	0
+泰山區	哺集乳友善	0
+泰山區	穆斯林友善	0
+泰山區	月經友善	0
+泰山區	友善項目總計	0
+林口區	英文友善	0
+林口區	日文友善	0
+林口區	韓文友善	0
+林口區	行動裝置充電	0
+林口區	無障礙友善	0
+林口區	性別友善	0
+林口區	便利支付	0
+林口區	素食	0
+林口區	友善廁所	0
+林口區	公平貿易友善	0
+林口區	Free WiFi	0
+林口區	自行車友善	0
+林口區	哺集乳友善	0
+林口區	穆斯林友善	0
+林口區	月經友善	0
+林口區	友善項目總計	0
+深坑區	英文友善	0
+深坑區	日文友善	0
+深坑區	韓文友善	0
+深坑區	行動裝置充電	0
+深坑區	無障礙友善	0
+深坑區	性別友善	0
+深坑區	便利支付	0
+深坑區	素食	0
+深坑區	友善廁所	0
+深坑區	公平貿易友善	0
+深坑區	Free WiFi	0
+深坑區	自行車友善	0
+深坑區	哺集乳友善	0
+深坑區	穆斯林友善	0
+深坑區	月經友善	0
+深坑區	友善項目總計	0
+石碇區	英文友善	0
+石碇區	日文友善	0
+石碇區	韓文友善	0
+石碇區	行動裝置充電	0
+石碇區	無障礙友善	0
+石碇區	性別友善	0
+石碇區	便利支付	0
+石碇區	素食	0
+石碇區	友善廁所	0
+石碇區	公平貿易友善	0
+石碇區	Free WiFi	0
+石碇區	自行車友善	0
+石碇區	哺集乳友善	0
+石碇區	穆斯林友善	0
+石碇區	月經友善	0
+石碇區	友善項目總計	0
+坪林區	英文友善	0
+坪林區	日文友善	0
+坪林區	韓文友善	0
+坪林區	行動裝置充電	0
+坪林區	無障礙友善	0
+坪林區	性別友善	0
+坪林區	便利支付	0
+坪林區	素食	0
+坪林區	友善廁所	0
+坪林區	公平貿易友善	0
+坪林區	Free WiFi	0
+坪林區	自行車友善	0
+坪林區	哺集乳友善	0
+坪林區	穆斯林友善	0
+坪林區	月經友善	0
+坪林區	友善項目總計	0
+三芝區	英文友善	1
+三芝區	日文友善	0
+三芝區	韓文友善	0
+三芝區	行動裝置充電	1
+三芝區	無障礙友善	1
+三芝區	性別友善	1
+三芝區	便利支付	0
+三芝區	素食	0
+三芝區	友善廁所	1
+三芝區	公平貿易友善	0
+三芝區	Free WiFi	1
+三芝區	自行車友善	1
+三芝區	哺集乳友善	1
+三芝區	穆斯林友善	1
+三芝區	月經友善	0
+三芝區	友善項目總計	9
+石門區	英文友善	1
+石門區	日文友善	1
+石門區	韓文友善	1
+石門區	行動裝置充電	1
+石門區	無障礙友善	1
+石門區	性別友善	1
+石門區	便利支付	0
+石門區	素食	0
+石門區	友善廁所	1
+石門區	公平貿易友善	0
+石門區	Free WiFi	1
+石門區	自行車友善	1
+石門區	哺集乳友善	1
+石門區	穆斯林友善	1
+石門區	月經友善	1
+石門區	友善項目總計	12
+八里區	英文友善	1
+八里區	日文友善	1
+八里區	韓文友善	1
+八里區	行動裝置充電	1
+八里區	無障礙友善	1
+八里區	性別友善	1
+八里區	便利支付	1
+八里區	素食	0
+八里區	友善廁所	1
+八里區	公平貿易友善	0
+八里區	Free WiFi	1
+八里區	自行車友善	1
+八里區	哺集乳友善	1
+八里區	穆斯林友善	0
+八里區	月經友善	1
+八里區	友善項目總計	12
+平溪區	英文友善	0
+平溪區	日文友善	0
+平溪區	韓文友善	0
+平溪區	行動裝置充電	0
+平溪區	無障礙友善	0
+平溪區	性別友善	0
+平溪區	便利支付	0
+平溪區	素食	0
+平溪區	友善廁所	0
+平溪區	公平貿易友善	0
+平溪區	Free WiFi	0
+平溪區	自行車友善	0
+平溪區	哺集乳友善	0
+平溪區	穆斯林友善	0
+平溪區	月經友善	0
+平溪區	友善項目總計	0
+雙溪區	英文友善	0
+雙溪區	日文友善	0
+雙溪區	韓文友善	0
+雙溪區	行動裝置充電	0
+雙溪區	無障礙友善	0
+雙溪區	性別友善	0
+雙溪區	便利支付	0
+雙溪區	素食	0
+雙溪區	友善廁所	0
+雙溪區	公平貿易友善	0
+雙溪區	Free WiFi	0
+雙溪區	自行車友善	0
+雙溪區	哺集乳友善	0
+雙溪區	穆斯林友善	0
+雙溪區	月經友善	0
+雙溪區	友善項目總計	0
+貢寮區	英文友善	0
+貢寮區	日文友善	0
+貢寮區	韓文友善	0
+貢寮區	行動裝置充電	0
+貢寮區	無障礙友善	0
+貢寮區	性別友善	0
+貢寮區	便利支付	0
+貢寮區	素食	0
+貢寮區	友善廁所	0
+貢寮區	公平貿易友善	0
+貢寮區	Free WiFi	0
+貢寮區	自行車友善	0
+貢寮區	哺集乳友善	0
+貢寮區	穆斯林友善	0
+貢寮區	月經友善	0
+貢寮區	友善項目總計	0
+金山區	英文友善	1
+金山區	日文友善	1
+金山區	韓文友善	1
+金山區	行動裝置充電	1
+金山區	無障礙友善	1
+金山區	性別友善	1
+金山區	便利支付	0
+金山區	素食	0
+金山區	友善廁所	1
+金山區	公平貿易友善	0
+金山區	Free WiFi	1
+金山區	自行車友善	1
+金山區	哺集乳友善	1
+金山區	穆斯林友善	1
+金山區	月經友善	1
+金山區	友善項目總計	12
+萬里區	英文友善	1
+萬里區	日文友善	1
+萬里區	韓文友善	1
+萬里區	行動裝置充電	1
+萬里區	無障礙友善	1
+萬里區	性別友善	1
+萬里區	便利支付	1
+萬里區	素食	1
+萬里區	友善廁所	1
+萬里區	公平貿易友善	1
+萬里區	Free WiFi	1
+萬里區	自行車友善	1
+萬里區	哺集乳友善	1
+萬里區	穆斯林友善	1
+萬里區	月經友善	1
+萬里區	友善項目總計	15
+烏來區	英文友善	0
+烏來區	日文友善	0
+烏來區	韓文友善	0
+烏來區	行動裝置充電	0
+烏來區	無障礙友善	0
+烏來區	性別友善	0
+烏來區	便利支付	0
+烏來區	素食	0
+烏來區	友善廁所	0
+烏來區	公平貿易友善	0
+烏來區	Free WiFi	0
+烏來區	自行車友善	0
+烏來區	哺集乳友善	0
+烏來區	穆斯林友善	0
+烏來區	月經友善	0
+烏來區	友善項目總計	0
+\.
+
+
+--
+-- Data for Name: friendly_store_tp; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.friendly_store_tp (x, y, data) FROM stdin;
+北投區	英文友善	39
+北投區	日文友善	13
+北投區	韓文友善	1
+北投區	行動裝置充電	32
+北投區	無障礙友善	33
+北投區	性別友善	28
+北投區	便利支付	41
+北投區	素食	32
+北投區	友善廁所	35
+北投區	公平貿易友善	1
+北投區	Free WiFi	45
+北投區	自行車友善	4
+北投區	哺集乳友善	8
+北投區	穆斯林友善	5
+北投區	月經友善	2
+北投區	友善項目總計	319
+士林區	英文友善	37
+士林區	日文友善	21
+士林區	韓文友善	3
+士林區	行動裝置充電	33
+士林區	無障礙友善	17
+士林區	性別友善	56
+士林區	便利支付	40
+士林區	素食	25
+士林區	友善廁所	38
+士林區	公平貿易友善	2
+士林區	Free WiFi	41
+士林區	自行車友善	24
+士林區	哺集乳友善	11
+士林區	穆斯林友善	5
+士林區	月經友善	11
+士林區	友善項目總計	364
+內湖區	英文友善	32
+內湖區	日文友善	7
+內湖區	韓文友善	4
+內湖區	行動裝置充電	19
+內湖區	無障礙友善	8
+內湖區	性別友善	44
+內湖區	便利支付	41
+內湖區	素食	22
+內湖區	友善廁所	30
+內湖區	公平貿易友善	4
+內湖區	Free WiFi	35
+內湖區	自行車友善	11
+內湖區	哺集乳友善	4
+內湖區	穆斯林友善	0
+內湖區	月經友善	6
+內湖區	友善項目總計	267
+南港區	英文友善	28
+南港區	日文友善	7
+南港區	韓文友善	1
+南港區	行動裝置充電	18
+南港區	無障礙友善	14
+南港區	性別友善	34
+南港區	便利支付	28
+南港區	素食	17
+南港區	友善廁所	18
+南港區	公平貿易友善	1
+南港區	Free WiFi	20
+南港區	自行車友善	10
+南港區	哺集乳友善	4
+南港區	穆斯林友善	2
+南港區	月經友善	6
+南港區	友善項目總計	208
+松山區	英文友善	37
+松山區	日文友善	12
+松山區	韓文友善	2
+松山區	行動裝置充電	23
+松山區	無障礙友善	8
+松山區	性別友善	41
+松山區	便利支付	30
+松山區	素食	21
+松山區	友善廁所	20
+松山區	公平貿易友善	1
+松山區	Free WiFi	35
+松山區	自行車友善	12
+松山區	哺集乳友善	5
+松山區	穆斯林友善	1
+松山區	月經友善	7
+松山區	友善項目總計	255
+信義區	英文友善	36
+信義區	日文友善	9
+信義區	韓文友善	1
+信義區	行動裝置充電	19
+信義區	無障礙友善	6
+信義區	性別友善	42
+信義區	便利支付	31
+信義區	素食	21
+信義區	友善廁所	25
+信義區	公平貿易友善	4
+信義區	Free WiFi	34
+信義區	自行車友善	5
+信義區	哺集乳友善	5
+信義區	穆斯林友善	2
+信義區	月經友善	8
+信義區	友善項目總計	248
+中山區	英文友善	64
+中山區	日文友善	36
+中山區	韓文友善	5
+中山區	行動裝置充電	44
+中山區	無障礙友善	30
+中山區	性別友善	82
+中山區	便利支付	59
+中山區	素食	40
+中山區	友善廁所	57
+中山區	公平貿易友善	0
+中山區	Free WiFi	64
+中山區	自行車友善	18
+中山區	哺集乳友善	18
+中山區	穆斯林友善	7
+中山區	月經友善	14
+中山區	友善項目總計	538
+大同區	英文友善	70
+大同區	日文友善	43
+大同區	韓文友善	5
+大同區	行動裝置充電	38
+大同區	無障礙友善	35
+大同區	性別友善	83
+大同區	便利支付	70
+大同區	素食	25
+大同區	友善廁所	38
+大同區	公平貿易友善	4
+大同區	Free WiFi	63
+大同區	自行車友善	28
+大同區	哺集乳友善	11
+大同區	穆斯林友善	4
+大同區	月經友善	12
+大同區	友善項目總計	529
+中正區	英文友善	64
+中正區	日文友善	27
+中正區	韓文友善	6
+中正區	行動裝置充電	30
+中正區	無障礙友善	34
+中正區	性別友善	61
+中正區	便利支付	61
+中正區	素食	21
+中正區	友善廁所	33
+中正區	公平貿易友善	3
+中正區	Free WiFi	58
+中正區	自行車友善	12
+中正區	哺集乳友善	15
+中正區	穆斯林友善	2
+中正區	月經友善	6
+中正區	友善項目總計	433
+萬華區	英文友善	75
+萬華區	日文友善	33
+萬華區	韓文友善	11
+萬華區	行動裝置充電	35
+萬華區	無障礙友善	32
+萬華區	性別友善	91
+萬華區	便利支付	57
+萬華區	素食	32
+萬華區	友善廁所	44
+萬華區	公平貿易友善	1
+萬華區	Free WiFi	63
+萬華區	自行車友善	24
+萬華區	哺集乳友善	12
+萬華區	穆斯林友善	2
+萬華區	月經友善	14
+萬華區	友善項目總計	526
+大安區	英文友善	93
+大安區	日文友善	33
+大安區	韓文友善	9
+大安區	行動裝置充電	55
+大安區	無障礙友善	26
+大安區	性別友善	101
+大安區	便利支付	75
+大安區	素食	58
+大安區	友善廁所	48
+大安區	公平貿易友善	4
+大安區	Free WiFi	84
+大安區	自行車友善	21
+大安區	哺集乳友善	14
+大安區	穆斯林友善	10
+大安區	月經友善	14
+大安區	友善項目總計	645
+文山區	英文友善	34
+文山區	日文友善	4
+文山區	韓文友善	0
+文山區	行動裝置充電	22
+文山區	無障礙友善	9
+文山區	性別友善	42
+文山區	便利支付	32
+文山區	素食	25
+文山區	友善廁所	32
+文山區	公平貿易友善	1
+文山區	Free WiFi	42
+文山區	自行車友善	20
+文山區	哺集乳友善	1
+文山區	穆斯林友善	0
+文山區	月經友善	12
+文山區	友善項目總計	276
+\.
+
+
+--
+-- Data for Name: population_age_distribution_new_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.population_age_distribution_new_tpe (ogc_fid, year, young_population, young_population_percentage, working_age_population, working_age_population_percentage, elderly_population, elderly_population_percentage, total_dependency_ratio, aging_index, _ctime, _mtime, data_time) FROM stdin;
@@ -12688,7 +13651,7 @@ COPY public.population_age_distribution_new_tpe (ogc_fid, year, young_population
 
 
 --
--- Data for Name: population_age_distribution_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: population_age_distribution_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.population_age_distribution_tpe (ogc_fid, year, young_population, young_population_percentage, working_age_population, working_age_population_percentage, elderly_population, elderly_population_percentage, total_dependency_ratio, aging_index, _ctime, _mtime, data_time) FROM stdin;
@@ -12721,7 +13684,135 @@ COPY public.population_age_distribution_tpe (ogc_fid, year, young_population, yo
 
 
 --
--- Data for Name: tran_ubike_realtime; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: spatial_ref_sys; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.spatial_ref_sys (srid, auth_name, auth_srid, srtext, proj4text) FROM stdin;
+\.
+
+
+--
+-- Data for Name: store_rent_ntp; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.store_rent_ntp (x_axis, y_axis, data) FROM stdin;
+三重區	0-50000	9
+三重區	50001-100000	0
+三重區	100001-150000	0
+三重區	150001以上	0
+中和區	0-50000	3
+中和區	50001-100000	0
+中和區	100001-150000	0
+中和區	150001以上	0
+五股區	0-50000	2
+五股區	50001-100000	0
+五股區	100001-150000	0
+五股區	150001以上	0
+土城區	0-50000	1
+土城區	50001-100000	0
+土城區	100001-150000	0
+土城區	150001以上	0
+新店區	0-50000	3
+新店區	50001-100000	0
+新店區	100001-150000	0
+新店區	150001以上	0
+新莊區	0-50000	21
+新莊區	50001-100000	0
+新莊區	100001-150000	0
+新莊區	150001以上	0
+板橋區	0-50000	5
+板橋區	50001-100000	1
+板橋區	100001-150000	0
+板橋區	150001以上	0
+林口區	0-50000	11
+林口區	50001-100000	0
+林口區	100001-150000	0
+林口區	150001以上	0
+樹林區	0-50000	7
+樹林區	50001-100000	0
+樹林區	100001-150000	0
+樹林區	150001以上	0
+永和區	0-50000	16
+永和區	50001-100000	5
+永和區	100001-150000	0
+永和區	150001以上	0
+汐止區	0-50000	1
+汐止區	50001-100000	0
+汐止區	100001-150000	0
+汐止區	150001以上	0
+泰山區	0-50000	10
+泰山區	50001-100000	0
+泰山區	100001-150000	0
+泰山區	150001以上	0
+淡水區	0-50000	7
+淡水區	50001-100000	0
+淡水區	100001-150000	0
+淡水區	150001以上	0
+瑞芳區	0-50000	0
+瑞芳區	50001-100000	0
+瑞芳區	100001-150000	1
+瑞芳區	150001以上	0
+蘆洲區	0-50000	1
+蘆洲區	50001-100000	0
+蘆洲區	100001-150000	0
+蘆洲區	150001以上	0
+鶯歌區	0-50000	4
+鶯歌區	50001-100000	0
+鶯歌區	100001-150000	0
+鶯歌區	150001以上	0
+\.
+
+
+--
+-- Data for Name: store_rent_tp; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.store_rent_tp (x_axis, y_axis, data) FROM stdin;
+中山區	0-50000	13
+中山區	50001-100000	0
+中山區	100001-150000	16
+中山區	150001以上	0
+中正區	0-50000	0
+中正區	50001-100000	2
+中正區	100001-150000	0
+中正區	150001以上	0
+信義區	0-50000	8
+信義區	50001-100000	1
+信義區	100001-150000	3
+信義區	150001以上	0
+內湖區	0-50000	1
+內湖區	50001-100000	0
+內湖區	100001-150000	0
+內湖區	150001以上	1
+南港區	0-50000	4
+南港區	50001-100000	0
+南港區	100001-150000	0
+南港區	150001以上	0
+士林區	0-50000	9
+士林區	50001-100000	5
+士林區	100001-150000	0
+士林區	150001以上	0
+大同區	0-50000	17
+大同區	50001-100000	15
+大同區	100001-150000	0
+大同區	150001以上	0
+大安區	0-50000	4
+大安區	50001-100000	2
+大安區	100001-150000	0
+大安區	150001以上	19
+文山區	0-50000	7
+文山區	50001-100000	0
+文山區	100001-150000	0
+文山區	150001以上	0
+松山區	0-50000	8
+松山區	50001-100000	0
+松山區	100001-150000	2
+松山區	150001以上	0
+\.
+
+
+--
+-- Data for Name: tran_ubike_realtime; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.tran_ubike_realtime (data_time, station_uid, station_id, service_status, service_type, available_rent_general_bikes, available_return_bikes, available_rent_electric_bikes, tdx_update_time, _ctime, _mtime, ogc_fid) FROM stdin;
@@ -14257,7 +15348,7 @@ COPY public.tran_ubike_realtime (data_time, station_uid, station_id, service_sta
 
 
 --
--- Data for Name: tran_ubike_realtime_new_tpe; Type: TABLE DATA; Schema: public; Owner: -
+-- Data for Name: tran_ubike_realtime_new_tpe; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.tran_ubike_realtime_new_tpe (data_time, station_uid, station_id, service_status, service_type, available_rent_general_bikes, available_return_bikes, available_rent_electric_bikes, tdx_update_time, _ctime, _mtime, ogc_fid) FROM stdin;
@@ -15659,84 +16750,146 @@ COPY public.tran_ubike_realtime_new_tpe (data_time, station_uid, station_id, ser
 
 
 --
--- Name: bike_network_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Data for Name: geocode_settings; Type: TABLE DATA; Schema: tiger; Owner: postgres
+--
+
+COPY tiger.geocode_settings (name, setting, unit, category, short_desc) FROM stdin;
+\.
+
+
+--
+-- Data for Name: pagc_gaz; Type: TABLE DATA; Schema: tiger; Owner: postgres
+--
+
+COPY tiger.pagc_gaz (id, seq, word, stdword, token, is_custom) FROM stdin;
+\.
+
+
+--
+-- Data for Name: pagc_lex; Type: TABLE DATA; Schema: tiger; Owner: postgres
+--
+
+COPY tiger.pagc_lex (id, seq, word, stdword, token, is_custom) FROM stdin;
+\.
+
+
+--
+-- Data for Name: pagc_rules; Type: TABLE DATA; Schema: tiger; Owner: postgres
+--
+
+COPY tiger.pagc_rules (id, rule, is_custom) FROM stdin;
+\.
+
+
+--
+-- Data for Name: topology; Type: TABLE DATA; Schema: topology; Owner: postgres
+--
+
+COPY topology.topology (id, name, srid, "precision", hasz) FROM stdin;
+\.
+
+
+--
+-- Data for Name: layer; Type: TABLE DATA; Schema: topology; Owner: postgres
+--
+
+COPY topology.layer (topology_id, layer_id, schema_name, table_name, feature_column, feature_type, level, child_id) FROM stdin;
+\.
+
+
+--
+-- Name: bike_network_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.bike_network_new_tpe_ogc_fid_seq', 1, false);
 
 
 --
--- Name: bike_network_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: bike_network_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.bike_network_tpe_ogc_fid_seq', 1, false);
 
 
 --
--- Name: bus_info_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: bus_info_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.bus_info_new_tpe_ogc_fid_seq', 82420, true);
 
 
 --
--- Name: bus_info_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: bus_info_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.bus_info_tpe_ogc_fid_seq', 108817, true);
 
 
 --
--- Name: dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.dependency_ratio_and_aging_index_new_tpe_ogc_fid_seq', 13, true);
 
 
 --
--- Name: dependency_ratio_and_aging_index_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.dependency_ratio_and_aging_index_tpe_ogc_fid_seq', 55, true);
 
 
 --
--- Name: employment_age_structure_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: employment_age_structure_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.employment_age_structure_new_tpe_ogc_fid_seq', 1080, true);
 
 
 --
--- Name: employment_age_structure_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: employment_age_structure_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.employment_age_structure_tpe_ogc_fid_seq', 1620, true);
 
 
 --
--- Name: population_age_distribution_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: population_age_distribution_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.population_age_distribution_new_tpe_ogc_fid_seq', 13, true);
 
 
 --
--- Name: population_age_distribution_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: population_age_distribution_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.population_age_distribution_tpe_ogc_fid_seq', 25, true);
 
 
 --
--- Name: tran_ubike_realtime_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: -
+-- Name: tran_ubike_realtime_new_tpe_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
 SELECT pg_catalog.setval('public.tran_ubike_realtime_new_tpe_ogc_fid_seq', 69700, true);
 
 
 --
--- Name: bike_network_new_tpe bike_network_new_tpe_pkey_1; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: tran_ubike_realtime_ogc_fid_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.tran_ubike_realtime_ogc_fid_seq', 1, false);
+
+
+--
+-- Name: topology_id_seq; Type: SEQUENCE SET; Schema: topology; Owner: postgres
+--
+
+SELECT pg_catalog.setval('topology.topology_id_seq', 1, false);
+
+
+--
+-- Name: bike_network_new_tpe bike_network_new_tpe_pkey_1; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bike_network_new_tpe
@@ -15744,7 +16897,7 @@ ALTER TABLE ONLY public.bike_network_new_tpe
 
 
 --
--- Name: bike_network_tpe bike_network_tpe_pkey_1; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: bike_network_tpe bike_network_tpe_pkey_1; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bike_network_tpe
@@ -15752,7 +16905,7 @@ ALTER TABLE ONLY public.bike_network_tpe
 
 
 --
--- Name: bus_info_new_tpe bus_info_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: bus_info_new_tpe bus_info_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bus_info_new_tpe
@@ -15760,7 +16913,7 @@ ALTER TABLE ONLY public.bus_info_new_tpe
 
 
 --
--- Name: bus_info_tpe bus_info_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: bus_info_tpe bus_info_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.bus_info_tpe
@@ -15768,7 +16921,7 @@ ALTER TABLE ONLY public.bus_info_tpe
 
 
 --
--- Name: dependency_ratio_and_aging_index_new_tpe dependency_ratio_and_aging_index_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_new_tpe dependency_ratio_and_aging_index_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.dependency_ratio_and_aging_index_new_tpe
@@ -15776,7 +16929,7 @@ ALTER TABLE ONLY public.dependency_ratio_and_aging_index_new_tpe
 
 
 --
--- Name: dependency_ratio_and_aging_index_tpe dependency_ratio_and_aging_index_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: dependency_ratio_and_aging_index_tpe dependency_ratio_and_aging_index_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.dependency_ratio_and_aging_index_tpe
@@ -15784,7 +16937,7 @@ ALTER TABLE ONLY public.dependency_ratio_and_aging_index_tpe
 
 
 --
--- Name: employment_age_structure_new_tpe employment_age_structure_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: employment_age_structure_new_tpe employment_age_structure_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.employment_age_structure_new_tpe
@@ -15792,7 +16945,7 @@ ALTER TABLE ONLY public.employment_age_structure_new_tpe
 
 
 --
--- Name: employment_age_structure_tpe employment_age_structure_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: employment_age_structure_tpe employment_age_structure_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.employment_age_structure_tpe
@@ -15800,7 +16953,7 @@ ALTER TABLE ONLY public.employment_age_structure_tpe
 
 
 --
--- Name: population_age_distribution_new_tpe population_age_distribution_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: population_age_distribution_new_tpe population_age_distribution_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.population_age_distribution_new_tpe
@@ -15808,7 +16961,7 @@ ALTER TABLE ONLY public.population_age_distribution_new_tpe
 
 
 --
--- Name: population_age_distribution_tpe population_age_distribution_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: population_age_distribution_tpe population_age_distribution_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.population_age_distribution_tpe
@@ -15816,7 +16969,7 @@ ALTER TABLE ONLY public.population_age_distribution_tpe
 
 
 --
--- Name: tran_ubike_realtime_new_tpe tran_ubike_realtime_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: tran_ubike_realtime_new_tpe tran_ubike_realtime_new_tpe_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.tran_ubike_realtime_new_tpe
@@ -15824,81 +16977,11 @@ ALTER TABLE ONLY public.tran_ubike_realtime_new_tpe
 
 
 --
--- Name: tran_ubike_realtime tran_ubike_realtime_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+-- Name: tran_ubike_realtime tran_ubike_realtime_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.tran_ubike_realtime
     ADD CONSTRAINT tran_ubike_realtime_pkey PRIMARY KEY (ogc_fid);
-
-
---
--- Name: bus_info_new_tpe bus_info_new_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER bus_info_new_tpe_mtime BEFORE INSERT OR UPDATE ON public.bus_info_new_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: bus_info_tpe bus_info_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER bus_info_tpe_mtime BEFORE INSERT OR UPDATE ON public.bus_info_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: dependency_ratio_and_aging_index_new_tpe dependency_ratio_and_aging_index_new_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER dependency_ratio_and_aging_index_new_tpe_mtime BEFORE INSERT OR UPDATE ON public.dependency_ratio_and_aging_index_new_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: dependency_ratio_and_aging_index_tpe dependency_ratio_and_aging_index_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER dependency_ratio_and_aging_index_tpe_mtime BEFORE INSERT OR UPDATE ON public.dependency_ratio_and_aging_index_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: employment_age_structure_new_tpe employment_age_structure_new_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER employment_age_structure_new_tpe_mtime BEFORE INSERT OR UPDATE ON public.employment_age_structure_new_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: employment_age_structure_tpe employment_age_structure_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER employment_age_structure_tpe_mtime BEFORE INSERT OR UPDATE ON public.employment_age_structure_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: population_age_distribution_new_tpe population_age_distribution_new_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER population_age_distribution_new_tpe_mtime BEFORE INSERT OR UPDATE ON public.population_age_distribution_new_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: population_age_distribution_tpe population_age_distribution_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER population_age_distribution_tpe_mtime BEFORE INSERT OR UPDATE ON public.population_age_distribution_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: tran_ubike_realtime tran_ubike_realtime_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER tran_ubike_realtime_mtime BEFORE INSERT OR UPDATE ON public.tran_ubike_realtime FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
-
-
---
--- Name: tran_ubike_realtime_new_tpe tran_ubike_realtime_new_tpe_mtime; Type: TRIGGER; Schema: public; Owner: -
---
-
-CREATE TRIGGER tran_ubike_realtime_new_tpe_mtime BEFORE INSERT OR UPDATE ON public.tran_ubike_realtime_new_tpe FOR EACH ROW EXECUTE FUNCTION public.trigger_set_timestamp();
 
 
 --

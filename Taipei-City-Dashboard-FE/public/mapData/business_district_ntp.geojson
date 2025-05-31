@@ -1,0 +1,455 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.616713,25.002448 ]
+            },
+            "properties": {
+            "district":"深坑區",
+            "business_district":"新北市商圈聯合發展協會",
+            "chairman_of_the_board":"黃建強",
+            "tel":"09399800900",
+            "addr":"新北市深坑區深坑街3巷2號2樓",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.349069,24.951754 ]
+            },
+            "properties": {
+            "district":"鶯歌區",
+            "business_district":"鶯歌商圈",
+            "chairman_of_the_board":"張素燕",
+            "tel":"09361707930",
+            "addr":"新北市鶯歌區重慶街69號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.472138,25.083234 ]
+            },
+            "properties": {
+            "district":"蘆洲區",
+            "business_district":"蘆洲廟口商圈",
+            "chairman_of_the_board":"林榮宗",
+            "tel":"02228391900",
+            "addr":"新北市蘆洲區得勝街131號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.660906,24.990662 ]
+            },
+            "properties": {
+            "district":"石碇區",
+            "business_district":"石碇商圈",
+            "chairman_of_the_board":"林淑芳",
+            "tel":"09312773800",
+            "addr":"新北市石碇區石碇東街51號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.515683,25.012084 ]
+            },
+            "properties": {
+            "district":"永和區",
+            "business_district":"韓國街商圈",
+            "chairman_of_the_board":"彭守喜",
+            "tel":"09332234730",
+            "addr":"新北市永和區中興街9號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.738533,25.024429 ]
+            },
+            "properties": {
+            "district":"平溪區",
+            "business_district":"平溪魅力商圈",
+            "chairman_of_the_board":"王聖凱",
+            "tel":"09870918310",
+            "addr":"新北市平溪區靜安路2段390號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 0.0,0.0 ]
+            },
+            "properties": {
+            "district":"淡水區",
+            "business_district":"淡水老街商圈",
+            "chairman_of_the_board":"盧育佑",
+            "tel":"09263777470",
+            "addr":"新北市淡水區中正路 11 巷 8 號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.460708,25.007954 ]
+            },
+            "properties": {
+            "district":"板橋區",
+            "business_district":"板橋府中商圈",
+            "chairman_of_the_board":"劉朝翔",
+            "tel":"09559893300",
+            "addr":"新北市板橋區重慶路10號8樓",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.45022,25.032855 ]
+            },
+            "properties": {
+            "district":"新莊區",
+            "business_district":"新莊廟街商圈",
+            "chairman_of_the_board":"孫松慶",
+            "tel":"09250956770",
+            "addr":"新北市新莊區武前街24號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.369497,24.933019 ]
+            },
+            "properties": {
+            "district":"三峽區",
+            "business_district":"三峽民權老街商圈",
+            "chairman_of_the_board":"林豐斌",
+            "tel":"09131373230",
+            "addr":"新北市三峽區民權街75號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 0.0,0.0 ]
+            },
+            "properties": {
+            "district":"瑞芳區",
+            "business_district":"九份老街商圈",
+            "chairman_of_the_board":"蘇宗德",
+            "tel":"",
+            "addr":"新北市瑞芳區豎崎路15號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.63883,25.221571 ]
+            },
+            "properties": {
+            "district":"金山區",
+            "business_district":"金山商圈",
+            "chairman_of_the_board":"羅國旺",
+            "tel":"09721638730",
+            "addr":"新北市金山區金包里街74號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.614096,24.999639 ]
+            },
+            "properties": {
+            "district":"深坑區",
+            "business_district":"深坑老街商圈",
+            "chairman_of_the_board":"陳寶桂",
+            "tel":"09351423160",
+            "addr":"新北市深坑區昇高里文山路2段30巷28號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.846937,25.031012 ]
+            },
+            "properties": {
+            "district":"雙溪區",
+            "business_district":"雙溪商圈",
+            "chairman_of_the_board":"莊豪雄",
+            "tel":"09100905890",
+            "addr":"新北市雙溪區梅竹蹊67號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.689661,25.179791 ]
+            },
+            "properties": {
+            "district":"萬里區",
+            "business_district":"萬里商圈",
+            "chairman_of_the_board":"林簿",
+            "tel":"",
+            "addr":"新北市萬里區瑪鋉路221號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.551198,24.863485 ]
+            },
+            "properties": {
+            "district":"烏來區",
+            "business_district":"烏來商圈",
+            "chairman_of_the_board":"洪楊寶滿",
+            "tel":"09320669240",
+            "addr":"新北市烏來區烏來街34號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.708703,24.934984 ]
+            },
+            "properties": {
+            "district":"坪林區",
+            "business_district":"坪林商圈",
+            "chairman_of_the_board":"高明富",
+            "tel":"09362077980",
+            "addr":"新北市坪林區北宜路8段217號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.424109,25.16053 ]
+            },
+            "properties": {
+            "district":"八里區",
+            "business_district":"八里左岸商圈",
+            "chairman_of_the_board":"邱毓奇",
+            "tel":"09527752850",
+            "addr":"新北市八里區忠孝路133號1樓",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.485789,25.081897 ]
+            },
+            "properties": {
+            "district":"三重區",
+            "business_district":"三重碧華布街商圈",
+            "chairman_of_the_board":"張家偉",
+            "tel":"09351601880",
+            "addr":"新北市三重區碧華街113號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.37136,24.934923 ]
+            },
+            "properties": {
+            "district":"三峽區",
+            "business_district":"三峽三角湧商圈",
+            "chairman_of_the_board":"顏明玉",
+            "tel":"09533488180",
+            "addr":"新北市三峽區民生街170號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.37085,24.934086 ]
+            },
+            "properties": {
+            "district":"三峽區",
+            "business_district":"三峽秀川商圈",
+            "chairman_of_the_board":"鄭志宏",
+            "tel":"09886333690",
+            "addr":"新北市三峽區忠孝街24號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.508504,24.983115 ]
+            },
+            "properties": {
+            "district":"中和區",
+            "business_district":"中和華新街商圈",
+            "chairman_of_the_board":"張標材",
+            "tel":"09285150360",
+            "addr":"新北市中和區華新街92號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.377949,25.080818 ]
+            },
+            "properties": {
+            "district":"林口區",
+            "business_district":"林口建城商圈",
+            "chairman_of_the_board":"謝牡丹",
+            "tel":"09362691950",
+            "addr":"新北市林口區信義路206號13樓",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.689661,25.179791 ]
+            },
+            "properties": {
+            "district":"萬里區",
+            "business_district":"野柳商圈",
+            "chairman_of_the_board":"陳丕展",
+            "tel":"09155118380",
+            "addr":"新北市萬里區瑪鋉路221號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.723125,25.023509 ]
+            },
+            "properties": {
+            "district":"平溪區",
+            "business_district":"菁桐商圈",
+            "chairman_of_the_board":"李溫泉",
+            "tel":"09193912510",
+            "addr":"新北市平溪區菁桐街165號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.470533,25.080673 ]
+            },
+            "properties": {
+            "district":"蘆洲區",
+            "business_district":"猴硐商圈",
+            "chairman_of_the_board":"李盈序",
+            "tel":"09288817380",
+            "addr":"新北市蘆洲區中山二路182號3樓",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.446679,25.058852 ]
+            },
+            "properties": {
+            "district":"新莊區",
+            "business_district":"新莊副都心商圈",
+            "chairman_of_the_board":"吳毓耕",
+            "tel":"09091238880",
+            "addr":"新北市新莊區新北大道4段135號22樓",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.456114,24.997339 ]
+            },
+            "properties": {
+            "district":"板橋區",
+            "business_district":"亞東商圈",
+            "chairman_of_the_board":"洪啟峰",
+            "tel":"09523829330",
+            "addr":"新北市板橋區四川路二段16巷10號5樓",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.805895,25.109722 ]
+            },
+            "properties": {
+            "district":"瑞芳區",
+            "business_district":"瑞芳老街商圈",
+            "chairman_of_the_board":"柯瑞和",
+            "tel":"09101405450",
+            "addr":"新北市瑞芳區瑞芳街50號",
+            "area":"新北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.434797,25.158445 ]
+            },
+            "properties": {
+            "district":"八里區",
+            "business_district":"八里渡船頭商圈",
+            "chairman_of_the_board":"周曼芝",
+            "tel":"09397181270",
+            "addr":"新北市八里區渡船頭街20號",
+            "area":"新北"
+            }
+        }
+    ]
+}

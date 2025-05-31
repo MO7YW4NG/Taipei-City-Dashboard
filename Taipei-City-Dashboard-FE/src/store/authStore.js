@@ -25,6 +25,7 @@ export const useAuthStore = defineStore("auth", {
 			login_at: null,
 			is_admin: false,
 		},
+		editAds: false,
 		editUser: {},
 		token: null,
 		isso_token: null,
@@ -101,7 +102,7 @@ export const useAuthStore = defineStore("auth", {
 			this.user = response.data.user;
 			this.editUser = JSON.parse(JSON.stringify(this.user));
 
-			contentStore.dashboards.clear()
+			contentStore.dashboards.clear();
 			contentStore.publicDashboards = [];
 			router.go();
 			dialogStore.showNotification("success", "登入成功");
@@ -116,9 +117,8 @@ export const useAuthStore = defineStore("auth", {
 			this.editUser = {};
 			this.token = null;
 
-			contentStore.dashboards.clear()
+			contentStore.dashboards.clear();
 			contentStore.publicDashboards = [];
-
 
 			if (this.isso_token) {
 				await http.post(

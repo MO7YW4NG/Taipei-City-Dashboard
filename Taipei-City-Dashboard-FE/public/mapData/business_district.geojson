@@ -1,0 +1,770 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.515333,25.056563 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"中山北路",
+            "chairman_of_the_board":"高志榮",
+            "tel":"0225927523",
+            "addr":"臺北市大同區寧夏路54號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.521676,25.053473 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"南西心中山",
+            "chairman_of_the_board":"李品濤",
+            "tel":"0225967618",
+            "addr":"臺北市中山區中山北路二段20巷6-1號4樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.53448,25.053712 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"四平陽光(商圈)",
+            "chairman_of_the_board":"陳永成",
+            "tel":"0225018531",
+            "addr":"臺北市四平街83號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.524821,25.050484 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"大正町商圈",
+            "chairman_of_the_board":"吳美瑩",
+            "tel":"0225518951",
+            "addr":"臺北市中山區林森北路100號6樓之5",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.550665,25.083634 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"大直(商圈)",
+            "chairman_of_the_board":"曹邦全",
+            "tel":"0225321000#315",
+            "addr":"臺北市中山區明水路659號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.525538,25.06433 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"晴光(商圈)",
+            "chairman_of_the_board":"李豐運",
+            "tel":"0225925899",
+            "addr":"臺北市中山區林森北路556號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.563089,25.050436 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"條通(商圈)",
+            "chairman_of_the_board":"莊錫弘",
+            "tel":"0225626434",
+            "addr":"台北市松山區八德路四段245巷52弄21號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.595039,25.08389 ]
+            },
+            "properties": {
+            "district":"中山區",
+            "business_district":"民族濱江汽車",
+            "chairman_of_the_board":"許嘉濬",
+            "tel":"0227953799",
+            "addr":"臺北市內湖區金湖路1號3樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.509676,25.045559 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"中華路影音(商圈)",
+            "chairman_of_the_board":"黃意婷",
+            "tel":"0223812712",
+            "addr":"台北市中正區中華路一段29之4號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.511259,25.045567 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"北門相機(商圈)",
+            "chairman_of_the_board":"楊純",
+            "tel":"0223142312",
+            "addr":"臺北市中正區博愛路60號6樓之A左",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.520495,25.027436 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"南昌家具(商圈)",
+            "chairman_of_the_board":"黃世耀",
+            "tel":"0223581227",
+            "addr":"臺北市南昌路二段67號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.531538,25.044691 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"大光華(商圈)",
+            "chairman_of_the_board":"蔡若芸",
+            "tel":"0233222995",
+            "addr":"臺北市中正區八德路一段43巷28號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.51934,25.033638 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"愛國東路婚紗(商圈)",
+            "chairman_of_the_board":"李俊龍",
+            "tel":"0223512151",
+            "addr":"台北市愛國東路68號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.511183,25.042162 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"榮町商圈",
+            "chairman_of_the_board":"洪明通",
+            "tel":"0223618368",
+            "addr":"臺北市中正區衡陽路74號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.512925,25.042757 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"沅陵街(商圈)",
+            "chairman_of_the_board":"廖鴻昌",
+            "tel":"0223111606",
+            "addr":"臺北市中正區沅陵街2號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.533728,25.014498 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"臺大公館(商圈)",
+            "chairman_of_the_board":"林全義",
+            "tel":"0223671464",
+            "addr":"臺北市中正區羅斯福路4段52巷16弄5號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.513327,25.042929 ]
+            },
+            "properties": {
+            "district":"中正區",
+            "business_district":"重慶南路書店(商圈)",
+            "chairman_of_the_board":"沈榮裕",
+            "tel":"0223312666",
+            "addr":"臺北市中正區重慶南路一段105號2樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.579615,25.045795 ]
+            },
+            "properties": {
+            "district":"信義區",
+            "business_district":"五分埔(商圈)",
+            "chairman_of_the_board":"陳永昌",
+            "tel":"0227641381",
+            "addr":"臺北市永吉路517巷1弄10號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.561944,25.029254 ]
+            },
+            "properties": {
+            "district":"信義區",
+            "business_district":"吳興街(商圈)",
+            "chairman_of_the_board":"游新章",
+            "tel":"0227370194",
+            "addr":"臺北市信義區吳興街147號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 0.0,0.0 ]
+            },
+            "properties": {
+            "district":"內湖區",
+            "business_district":"內湖737(商圈)",
+            "chairman_of_the_board":"吳上煊",
+            "tel":"0287975933",
+            "addr":"臺北市內湖路一段737 巷38 弄2 號B1",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.567004,25.083625 ]
+            },
+            "properties": {
+            "district":"內湖區",
+            "business_district":"西湖(商圈)",
+            "chairman_of_the_board":"劉宜敏",
+            "tel":"0227989901",
+            "addr":"臺北市內湖區內湖路一段285巷31號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.505039,25.136177 ]
+            },
+            "properties": {
+            "district":"北投區",
+            "business_district":"新北投溫泉(商圈)",
+            "chairman_of_the_board":"林致宇",
+            "tel":"0228955418",
+            "addr":"臺北市光明路224號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.516653,25.116261 ]
+            },
+            "properties": {
+            "district":"北投區",
+            "business_district":"石牌捷運(商圈)",
+            "chairman_of_the_board":"蕭淑霞",
+            "tel":"0228264119",
+            "addr":"臺北市北投區石牌路二段68巷18號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.528054,25.137716 ]
+            },
+            "properties": {
+            "district":"北投區",
+            "business_district":"行義路溫泉美食(商圈)",
+            "chairman_of_the_board":"游騰在",
+            "tel":"0225992875",
+            "addr":"臺北市行義路269號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.526228,25.097608 ]
+            },
+            "properties": {
+            "district":"士林區",
+            "business_district":"士林捷運商圈",
+            "chairman_of_the_board":"何逸松",
+            "tel":"0228366957",
+            "addr":"臺北市士林區中山北路五段699巷20號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.524157,25.089739 ]
+            },
+            "properties": {
+            "district":"士林區",
+            "business_district":"士林觀光夜市(商圈)",
+            "chairman_of_the_board":"吳忠達",
+            "tel":"0228820986",
+            "addr":"臺北市士林區大西路6號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.52621,25.119305 ]
+            },
+            "properties": {
+            "district":"士林區",
+            "business_district":"天母(商圈)",
+            "chairman_of_the_board":"黃唐笛",
+            "tel":"0228761189",
+            "addr":"臺北市士林區天母北路10號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.520697,25.089525 ]
+            },
+            "properties": {
+            "district":"士林區",
+            "business_district":"承德路中古汽車(商圈)",
+            "chairman_of_the_board":"李寶星",
+            "tel":"0228835356",
+            "addr":"臺北市承德路4段257號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 0.0,0.0 ]
+            },
+            "properties": {
+            "district":"士林區",
+            "business_district":"蘭雅(商圈)",
+            "chairman_of_the_board":"賴俊宇",
+            "tel":"0979159111",
+            "addr":"台北市士林區中山北路六段315巷50號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 0.0,0.0 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"圓山(商圈)",
+            "chairman_of_the_board":"呂映慈",
+            "tel":"0225992905",
+            "addr":"臺北市大同區酒泉街10巷25號 ",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.511613,25.054834 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"圓環太平",
+            "chairman_of_the_board":"蘇武賢",
+            "tel":"0987879377",
+            "addr":"臺北市大同區延平北路二段34號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.514714,25.072906 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"大龍峒(商圈)",
+            "chairman_of_the_board":"張賦脈",
+            "tel":"0225910582",
+            "addr":"臺北市大同區哈密街96號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.515356,25.056647 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"寧夏夜市(商圈)",
+            "chairman_of_the_board":"林定國",
+            "tel":"0225580957",
+            "addr":"臺北市大同區寧夏路58號2樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.514009,25.050138 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"後站(商圈)",
+            "chairman_of_the_board":"許樹勳",
+            "tel":"0225550858",
+            "addr":"臺北市大同區重慶北路一段27巷15號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.513783,25.055284 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"朝陽服飾材料(商圈)",
+            "chairman_of_the_board":"呂國維",
+            "tel":"0225523101",
+            "addr":"臺北市大同區重慶北路二段46巷6號1樓\t",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.510835,25.06756 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"臺北大橋頭延三(商圈)",
+            "chairman_of_the_board":"施懿珊",
+            "tel":"0225853129",
+            "addr":"臺北市延平北路3段124號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.513555,25.050861 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"華陰街(商圈)",
+            "chairman_of_the_board":"李永進",
+            "tel":"0225592500#101",
+            "addr":"臺北市大同區重慶北路一段30號6樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.519414,25.057088 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"赤峰",
+            "chairman_of_the_board":"陳靜筠",
+            "tel":"0225598984",
+            "addr":"臺北市大同區赤峰街44巷13號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.50901,25.058216 ]
+            },
+            "properties": {
+            "district":"大同區",
+            "business_district":"迪化街(商圈)",
+            "chairman_of_the_board":"鄭玟和",
+            "tel":"0225501390",
+            "addr":"臺北市大同區歸綏街297號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.555663,25.032239 ]
+            },
+            "properties": {
+            "district":"大安區",
+            "business_district":"文昌家具(商圈)",
+            "chairman_of_the_board":"劉松雄",
+            "tel":"0227074529",
+            "addr":"臺北市大安區文昌街248號",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.545133,25.042708 ]
+            },
+            "properties": {
+            "district":"大安區",
+            "business_district":"東區商圈",
+            "chairman_of_the_board":"簡國維",
+            "tel":"0287716300",
+            "addr":"台北市大安區復興南路135巷17號5樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.529038,25.032246 ]
+            },
+            "properties": {
+            "district":"大安區",
+            "business_district":"永康(商圈)",
+            "chairman_of_the_board":"李慶隆",
+            "tel":"0223246472",
+            "addr":"台北市大安區麗水街3號2樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.52973,25.024191 ]
+            },
+            "properties": {
+            "district":"大安區",
+            "business_district":"龍泉(商圈)",
+            "chairman_of_the_board":"孫茂荃",
+            "tel":"0287976128",
+            "addr":"臺北市大安區泰順街40巷34號地樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.556121,24.999701 ]
+            },
+            "properties": {
+            "district":"文山區",
+            "business_district":"萬芳(商圈)",
+            "chairman_of_the_board":"曾瑞城",
+            "tel":"0229355929",
+            "addr":"臺北市文山區興隆路三段112巷2弄36號5樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.591787,24.968675 ]
+            },
+            "properties": {
+            "district":"文山區",
+            "business_district":"貓空(商圈)",
+            "chairman_of_the_board":"張振隆",
+            "tel":"0229395615",
+            "addr":"臺北市文山區指南路三段38巷37之1號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.563032,25.058278 ]
+            },
+            "properties": {
+            "district":"松山區",
+            "business_district":"民生社區",
+            "chairman_of_the_board":"秦慧珠",
+            "tel":"0287863256",
+            "addr":"臺北市松山區民生東路五段178號2樓之1",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.501245,25.023026 ]
+            },
+            "properties": {
+            "district":"萬華區",
+            "business_district":"加蚋(商圈)",
+            "chairman_of_the_board":"周孟儒",
+            "tel":"0223096099",
+            "addr":"臺北市萬華區長泰街7號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.498662,25.033774 ]
+            },
+            "properties": {
+            "district":"萬華區",
+            "business_district":"艋舺(商圈)",
+            "chairman_of_the_board":"林韋志",
+            "tel":"0223065869",
+            "addr":"臺北市萬華區西園路一段282巷25號3樓之5",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.499056,25.038712 ]
+            },
+            "properties": {
+            "district":"萬華區",
+            "business_district":"艋舺(夜市)",
+            "chairman_of_the_board":"李昭成",
+            "tel":"0223319570",
+            "addr":"臺北市萬華區華西街21巷9號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.50237,25.036 ]
+            },
+            "properties": {
+            "district":"萬華區",
+            "business_district":"萬華",
+            "chairman_of_the_board":"洪文和",
+            "tel":"0223065988#1",
+            "addr":"臺北市萬華區三水街62號1樓",
+            "area":"臺北"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            "coordinates":  [ 121.50739,25.041803 ]
+            },
+            "properties": {
+            "district":"萬華區",
+            "business_district":"西門町(商圈)",
+            "chairman_of_the_board":"洪明通",
+            "tel":"0223754205",
+            "addr":"臺北市萬華區漢中街135號11樓之1",
+            "area":"臺北"
+            }
+        }
+    ]
+}
