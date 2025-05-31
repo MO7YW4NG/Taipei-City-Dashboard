@@ -52,9 +52,9 @@ func StartApplication() {
 	addr := global.GinAddr
 
 	// 6. Enable MCP Server (on another port, e.g. ":8081")
-	go func() {
-		controllers.Activate()
-	}()
+	// go func() {
+	// 	controllers.Activate()
+	// }()
 
 	err := endless.ListenAndServe(addr, routes.Router)
 	if err != nil {
