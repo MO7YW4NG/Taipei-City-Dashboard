@@ -39,6 +39,7 @@ export const useDialogStore = defineStore("dialog", {
 			userSettings: false,
 			embedComponent: false,
 			incidentReport: false, // BETA
+			addAds: false, // BETA
 			contributorsList: false,
 			contributorInfo: false,
 			addPin: false,
