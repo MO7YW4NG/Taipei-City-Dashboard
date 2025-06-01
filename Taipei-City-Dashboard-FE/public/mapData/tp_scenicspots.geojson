@@ -1,0 +1,695 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國立故宮博物院",
+        "amount": 1874994
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54837094926,
+          25.1022867203785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北市立美術館",
+        "amount": 571315
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524776306766,
+          25.072366540809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國民革命忠烈祠",
+        "amount": 548470
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256,
+          25.0826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國立歷史博物館",
+        "amount": 307359
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51113384783,
+          25.0314816998382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國立臺灣科學教育館",
+        "amount": 2980381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516733568076,
+          25.0961585450173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國立臺灣藝術教育館",
+        "amount": 395709
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51201270916,
+          25.0323283198431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北市立動物園",
+        "amount": 2624974
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.586385776379,
+          24.994999814617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北市立天文科學教育館",
+        "amount": 1156493
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518502751031,
+          25.0958940298688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國立國父紀念館",
+        "amount": 1286710
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560256824323,
+          25.0399453449192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "士林官邸公園",
+        "amount": 2950477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.530064895444,
+          25.0941258269135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "陽明公園(陽明山)",
+        "amount": 6436602
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5449,
+          25.1645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國立中正紀念堂",
+        "amount": 4040564
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.521677526175,
+          25.0344057101975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北自來水園區",
+        "amount": 597640
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5281,
+          25.0213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "龍山寺",
+        "amount": 1246984
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471125131072,
+          25.0280219826147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "關渡自然公園",
+        "amount": 98734
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471628524659,
+          25.1193419665943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "台北當代藝術館",
+        "amount": 205933
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519003259075,
+          25.0507791782988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "北投溫泉博物館",
+        "amount": 378560
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50710452208,
+          25.1366789619183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "台北探索館",
+        "amount": 244420
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5384,
+          25.0426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "凱達格蘭文化館",
+        "amount": 177833
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.505810299339,
+          25.1371349098005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "台北101",
+        "amount": 12748808
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.545792267349,
+          25.061816761357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "美麗華摩天輪",
+        "amount": 164403
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5574,
+          25.083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "林安泰古厝民俗文物館",
+        "amount": 230213
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.530294435558,
+          25.071748110096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "梅庭",
+        "amount": 122678
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508768985805,
+          25.1369546481538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "大龍峒保安宮",
+        "amount": 1353563
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515528835499,
+          25.0731398255497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "西門紅樓",
+        "amount": 4631215
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50687491467,
+          25.0420355963438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "草山行館",
+        "amount": 35550
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.537994915591,
+          25.1543259070191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "寶藏巖",
+        "amount": 445855
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.533186561974,
+          25.0105857496195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "芝山文化生態綠園",
+        "amount": 90675
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53179976451,
+          25.103818600717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北市立兒童新樂園",
+        "amount": 1977642
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514831234264,
+          25.0975320558093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "華山1914文化創意產業園區",
+        "amount": 4199213
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529404316185,
+          25.0441470388616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "國立臺灣博物館",
+        "amount": 883763
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515012139201,
+          25.0428349260549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "松山文創園區",
+        "amount": 9807516
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5615,
+          25.0445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "台北植物園",
+        "amount": 1567335
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.508508249719,
+          25.032060337721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "白石湖吊橋",
+        "amount": 106178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5885,
+          25.1144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "北投公園露天溫泉浴池",
+        "amount": 293393
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5071,
+          25.1357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "信義公民會館",
+        "amount": 452364
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.562167331088,
+          25.0315949041327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北市電影主題公園",
+        "amount": 252775
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5079,
+          25.0329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "新芳春茶行",
+        "amount": 41375
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512534360822,
+          25.0570819109082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "新北投車站",
+        "amount": 427273
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503414822991,
+          25.1366239068471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "圓山別莊",
+        "amount": 26349
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524632666867,
+          25.0731429334974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北流行音樂中心",
+        "amount": 572251
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.599360555873,
+          25.0527246137153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北表演藝術中心",
+        "amount": 1803975
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52418709721,
+          25.0850898009867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "行天宮",
+        "amount": 691158
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.535129698397,
+          25.0637224524064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "西門町商圈",
+        "amount": 28769832
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.507521799944,
+          25.0445864755456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北孔廟",
+        "amount": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516614443101,
+          25.0729477948351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "臺北市",
+        "name": "臺北製糖所文化園區",
+        "amount": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5971,
+          25.0625
+        ]
+      }
+    }
+  ]
+}
