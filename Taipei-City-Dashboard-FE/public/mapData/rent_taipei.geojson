@@ -1,0 +1,1653 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 1600000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/9/7 20:34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5509651,
+          25.0427005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/9/8 13:37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5510756,
+          25.0423611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 28000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2018/9/10 07:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527233,
+          25.048424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/9/12 05:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 32000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2018/9/12 10:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.501859,
+          25.092604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 20000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/9/13 07:28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.554902,
+          25.030801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 48000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/9/23 05:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 130000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2018/9/24 05:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5371672,
+          25.0513545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/9/24 07:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5510756,
+          25.0423611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 28000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2018/9/28 06:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527233,
+          25.048424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 48000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/9/29 11:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 28000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2018/10/11 07:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527233,
+          25.048424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 54000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2018/10/13 05:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.531561,
+          25.121123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/10/14 06:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 28000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2018/10/21 04:07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527233,
+          25.048424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2018/10/22 06:53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5782214,
+          25.0363534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 28000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2018/11/4 06:43"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527233,
+          25.048424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 28000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2018/11/5 07:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529914,
+          25.108147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/11/8 06:17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5510756,
+          25.0423611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/11/8 08:02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/11/8 08:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5510756,
+          25.0423611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 12000,
+        "area": "臺北市",
+        "district": "文山區",
+        "timestamp": "2018/11/10 05:24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5410888,
+          24.9910902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/11/13 06:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 55000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2018/11/15 08:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.531561,
+          25.121123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2018/11/22 06:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5782214,
+          25.0363534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/11/28 10:20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 450000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/12/24 04:59"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5484402,
+          25.031638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2018/12/26 08:41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5782214,
+          25.0363534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/12/29 07:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2018/12/31 10:44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5502721,
+          25.0413258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 85000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2018/12/31 11:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5261269,
+          25.0895633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2018/12/31 11:40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 12000,
+        "area": "臺北市",
+        "district": "文山區",
+        "timestamp": "2018/12/31 13:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5410888,
+          24.9910902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2019/1/8 05:48"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5502721,
+          25.0413258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 450000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2019/1/16 12:37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5484402,
+          25.031638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/1/18 07:39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 12000,
+        "area": "臺北市",
+        "district": "文山區",
+        "timestamp": "2019/1/19 05:38"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5410888,
+          24.9910902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 85000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2019/1/22 07:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5261269,
+          25.0895633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 19800,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2019/2/10 05:16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5666942,
+          25.0481719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 25000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2019/2/22 05:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5258285,
+          25.0874645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/2/23 05:52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/2/24 04:56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 10000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2019/2/26 06:52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.521456,
+          25.05629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 12000,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2019/2/27 04:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560266,
+          25.0575918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 12000,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2019/3/2 05:53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560266,
+          25.0575918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2019/3/5 08:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5502721,
+          25.0413258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 49000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2019/3/24 09:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.531561,
+          25.121123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/3/25 07:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/4/9 11:32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/4/25 06:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/5/4 12:28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 270000,
+        "area": "臺北市",
+        "district": "內湖區",
+        "timestamp": "2019/5/18 08:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.582885,
+          25.07818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/5/26 06:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 26000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/6/6 06:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 26000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/6/25 11:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 26000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/6/30 07:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 360000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2019/7/7 07:26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5502721,
+          25.0413258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 48000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2019/7/7 09:51"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.531561,
+          25.121123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 26000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/7/23 12:21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514358,
+          25.049411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 140000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2019/7/28 04:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 14000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2019/8/8 09:07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5276108,
+          25.0242062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 35000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2019/8/16 05:49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5745601,
+          25.018018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 140000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2019/8/27 14:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 35000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2019/9/15 05:44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5745601,
+          25.018018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/9/17 06:25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 35000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2019/10/10 14:21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5745601,
+          25.018018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 58000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2019/10/17 10:27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197255,
+          25.0747535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 35000,
+        "area": "臺北市",
+        "district": "士林區",
+        "timestamp": "2019/11/5 07:09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.501859,
+          25.092604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 28000,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2019/11/20 10:01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.579392,
+          25.0519539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 38000,
+        "area": "臺北市",
+        "district": "南港區",
+        "timestamp": "2019/12/31 10:31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6139046,
+          25.0629002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 38000,
+        "area": "臺北市",
+        "district": "南港區",
+        "timestamp": "2020/1/28 08:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6139046,
+          25.0629002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 38000,
+        "area": "臺北市",
+        "district": "南港區",
+        "timestamp": "2020/3/14 09:42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6122386,
+          25.0612342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 38000,
+        "area": "臺北市",
+        "district": "南港區",
+        "timestamp": "2020/3/21 09:49"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6139046,
+          25.0629002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 31800,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2020/6/21 07:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5564575,
+          25.0505409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 45000,
+        "area": "臺北市",
+        "district": "文山區",
+        "timestamp": "2020/8/16 10:15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.544101,
+          24.992714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 45000,
+        "area": "臺北市",
+        "district": "文山區",
+        "timestamp": "2020/9/15 10:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.544101,
+          24.992714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 67000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2020/10/21 07:56"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5777755,
+          25.0393574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 130000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2020/10/23 05:28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.541993,
+          25.060351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 50000,
+        "area": "臺北市",
+        "district": "內湖區",
+        "timestamp": "2021/3/3 06:15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5950489,
+          25.079069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 18000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2021/3/30 04:06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5243073,
+          25.061779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 12000,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2021/5/7 07:19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560266,
+          25.0575918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 11000,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2021/6/6 05:40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560266,
+          25.0575918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 10000,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2021/6/29 04:13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.560266,
+          25.0575918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 35000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2021/12/29 04:14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580521,
+          25.04039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 35000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2022/1/11 05:11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580521,
+          25.04039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 35000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2022/1/30 06:29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.580521,
+          25.04039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 137000,
+        "area": "臺北市",
+        "district": "松山區",
+        "timestamp": "2022/2/7 05:12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5772496,
+          25.0510585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 15000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2022/6/4 10:47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5276108,
+          25.0242062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 90000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2022/6/9 04:04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.544426,
+          25.0432014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 90000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2022/6/25 07:04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.544426,
+          25.0432014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2022/8/13 09:02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2022/9/12 07:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2022/10/24 05:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 85000,
+        "area": "臺北市",
+        "district": "大同區",
+        "timestamp": "2022/11/23 05:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5170337,
+          25.0715327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2022/11/30 08:52"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 20000,
+        "area": "臺北市",
+        "district": "信義區",
+        "timestamp": "2022/12/12 04:10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.577,
+          25.046803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 15000,
+        "area": "臺北市",
+        "district": "大安區",
+        "timestamp": "2022/12/28 09:05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5274465,
+          25.0241925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2022/12/30 08:07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2023/1/31 05:58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2023/2/28 09:15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 120000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2023/3/9 07:54"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 105000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2023/5/15 09:18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "price_per_month": 105000,
+        "area": "臺北市",
+        "district": "中山區",
+        "timestamp": "2023/6/9 12:03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256548,
+          25.0581943
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1893 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "七張",
+        "enter": 5324853,
+        "exit": 5399244,
+        "radius": 32.747667092481564
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543068,
+          24.975025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三和國中",
+        "enter": 4368310,
+        "exit": 4216934,
+        "radius": 29.300587024836208
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.486398,
+          25.076586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三民高中",
+        "enter": 4044360,
+        "exit": 4161900,
+        "radius": 28.64657047536406
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.472714,
+          25.085692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三重",
+        "enter": 3130735,
+        "exit": 3120689,
+        "radius": 25.0028478377964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4833034,
+          25.05535171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三重國小",
+        "enter": 4076616,
+        "exit": 4163781,
+        "radius": 28.706091688002395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4967021,
+          25.0706459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中原",
+        "enter": 355803,
+        "exit": 357008,
+        "radius": 8.442813512094178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4841593,
+          25.0084104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中和",
+        "enter": 1587192,
+        "exit": 1657156,
+        "radius": 18.012073728474466
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4964906,
+          25.00221178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中山",
+        "enter": 17626704,
+        "exit": 18189152,
+        "radius": 59.846349930467774
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.520303,
+          25.052414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中山國中",
+        "enter": 4485396,
+        "exit": 4501547,
+        "radius": 29.97823043476716
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5439794,
+          25.06082643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中山國小",
+        "enter": 5970159,
+        "exit": 5930176,
+        "radius": 34.49686217614582
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.526095,
+          25.06284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中正紀念堂",
+        "enter": 9839380,
+        "exit": 9668390,
+        "radius": 44.16760124797361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517599,
+          25.033345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "丹鳳",
+        "enter": 3329559,
+        "exit": 3085166,
+        "radius": 25.327307397352765
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.42231,
+          25.02899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "亞東醫院",
+        "enter": 8524155,
+        "exit": 7773296,
+        "radius": 40.37010156043703
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.452581,
+          24.998933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "信義安和",
+        "enter": 6327647,
+        "exit": 6619220,
+        "radius": 35.98175509893868
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552602,
+          25.033377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "先嗇宮",
+        "enter": 1684856,
+        "exit": 1644301,
+        "radius": 18.245977638920856
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471319,
+          25.046497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "內湖",
+        "enter": 3464701,
+        "exit": 3438839,
+        "radius": 26.27458848393253
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.594266,
+          25.083745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "公館",
+        "enter": 9783035,
+        "exit": 9450870,
+        "radius": 43.85647614663084
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534377,
+          25.014509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "六張犁",
+        "enter": 3690523,
+        "exit": 3675788,
+        "radius": 27.140948767498898
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552737,
+          25.023852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "劍南路",
+        "enter": 4157505,
+        "exit": 4117939,
+        "radius": 28.767071453312727
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5553542,
+          25.08548437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "劍潭",
+        "enter": 9669588,
+        "exit": 9612366,
+        "radius": 43.911221800355314
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.525175,
+          25.08503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "動物園",
+        "enter": 2333267,
+        "exit": 2366499,
+        "radius": 21.67894370120463
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.579942,
+          24.9982988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北投",
+        "enter": 6242736,
+        "exit": 6548126,
+        "radius": 35.764314616667825
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4981189,
+          25.1323269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北門",
+        "enter": 5862324,
+        "exit": 5782009,
+        "radius": 34.123793751574574
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509986,
+          25.048861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "十四張",
+        "enter": 1069851,
+        "exit": 1129707,
+        "radius": 14.830906917650047
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527701,
+          24.984467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南京三民",
+        "enter": 7877047,
+        "exit": 8031022,
+        "radius": 39.88492070946111
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.563203,
+          25.051633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南京復興",
+        "enter": 13796997,
+        "exit": 14565090,
+        "radius": 53.25606725998456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.542121,
+          25.052625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南勢角",
+        "enter": 7115356,
+        "exit": 6886598,
+        "radius": 37.41918491896904
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.507876,
+          24.99052883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南港",
+        "enter": 8147541,
+        "exit": 8542406,
+        "radius": 40.85333156549169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.606357,
+          25.051911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南港展覽館",
+        "enter": 10593019,
+        "exit": 9919415,
+        "radius": 45.290654665173484
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6170736,
+          25.0557844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南港軟體園區",
+        "enter": 2148270,
+        "exit": 2044587,
+        "radius": 20.476466980414372
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6158607,
+          25.06038509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "古亭",
+        "enter": 10804437,
+        "exit": 10742261,
+        "radius": 46.418420912392094
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522973,
+          25.025976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "台北101/世貿",
+        "enter": 11812502,
+        "exit": 11888640,
+        "radius": 48.68381866698626
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.561671,
+          25.033107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "台北小巨蛋",
+        "enter": 7216300,
+        "exit": 7508258,
+        "radius": 38.37259178111377
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55153,
+          25.051836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "台北橋",
+        "enter": 3592640,
+        "exit": 3694932,
+        "radius": 26.995503329258376
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.500281,
+          25.062966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "台北車站",
+        "enter": 53714540,
+        "exit": 52593094,
+        "radius": 103.1055934467185
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518193,
+          25.048232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "台大醫院",
+        "enter": 7456113,
+        "exit": 7703913,
+        "radius": 38.93587805610655
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515731,
+          25.040913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "台電大樓",
+        "enter": 5529443,
+        "exit": 5450393,
+        "radius": 33.13583558626521
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.528577,
+          25.01962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "唭哩岸",
+        "enter": 2514873,
+        "exit": 2360575,
+        "radius": 22.08041666273533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5069183,
+          25.12070935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "善導寺",
+        "enter": 7802485,
+        "exit": 7942320,
+        "radius": 39.67972404137912
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.523009,
+          25.045097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "國父紀念館",
+        "enter": 8380848,
+        "exit": 8784610,
+        "radius": 41.43121769873534
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.556663,
+          25.041838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "圓山",
+        "enter": 9575986,
+        "exit": 9776375,
+        "radius": 43.99131846171469
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.520033,
+          25.070785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "土城",
+        "enter": 2942606,
+        "exit": 2896111,
+        "radius": 24.163437255489956
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.444173,
+          24.973251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "士林",
+        "enter": 9678852,
+        "exit": 9666070,
+        "radius": 43.98286257168808
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.525966,
+          25.094106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大坪林",
+        "enter": 8355845,
+        "exit": 8109545,
+        "radius": 40.57756769447868
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.540874,
+          24.982754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大安",
+        "enter": 8156440,
+        "exit": 8279095,
+        "radius": 40.54076343632419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5420001,
+          25.03360186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大安森林公園",
+        "enter": 3463614,
+        "exit": 3260594,
+        "radius": 25.93107787964087
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534442,
+          25.033693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大橋頭",
+        "enter": 4858433,
+        "exit": 4340656,
+        "radius": 30.33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.512319,
+          25.06318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大湖公園",
+        "enter": 1245891,
+        "exit": 1212391,
+        "radius": 15.678909400848006
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.602377,
+          25.083894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大直",
+        "enter": 2993432,
+        "exit": 2994582,
+        "radius": 24.470418876676383
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5469257,
+          25.08036069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "奇岩",
+        "enter": 3013567,
+        "exit": 2684339,
+        "radius": 23.870286969368426
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5009856,
+          25.12611852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小南門",
+        "enter": 3319042,
+        "exit": 3397197,
+        "radius": 25.915707592114863
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509752,
+          25.036434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小碧潭",
+        "enter": 1223706,
+        "exit": 1288411,
+        "radius": 15.849659302332022
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529896,
+          24.971803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "市政府",
+        "enter": 20956819,
+        "exit": 22082319,
+        "radius": 65.60422090079265
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.565459,
+          25.041408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "幸福",
+        "enter": 1034478,
+        "exit": 1126936,
+        "radius": 14.701748195367788
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.460146,
+          25.050126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "府中",
+        "enter": 10625795,
+        "exit": 9556016,
+        "radius": 44.92417055439088
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.459077,
+          25.008486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "後山埤",
+        "enter": 5649699,
+        "exit": 5663055,
+        "radius": 33.634437708991065
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58141,
+          25.044422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "徐匯中學",
+        "enter": 4140724,
+        "exit": 4330338,
+        "radius": 29.105088902114694
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47988,
+          25.080303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "復興崗",
+        "enter": 1346375,
+        "exit": 1343751,
+        "radius": 16.401603580138133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4854068,
+          25.137665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "忠孝復興",
+        "enter": 16002117,
+        "exit": 15686562,
+        "radius": 56.29269846081284
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543143,
+          25.041797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "忠孝敦化",
+        "enter": 11423381,
+        "exit": 11813848,
+        "radius": 48.20500907582115
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.550578,
+          25.041642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "忠孝新生",
+        "enter": 12362701,
+        "exit": 12346769,
+        "radius": 49.70862098268267
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.531829,
+          25.042784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "忠義",
+        "enter": 1037497,
+        "exit": 1040630,
+        "radius": 14.415710180216582
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473169,
+          25.131056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "文德",
+        "enter": 1960067,
+        "exit": 1891666,
+        "radius": 19.625832466420373
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.58564,
+          25.078671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新北投",
+        "enter": 2094364,
+        "exit": 1977294,
+        "radius": 20.178349783864885
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.503524,
+          25.136968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新北產業園區",
+        "enter": 1531698,
+        "exit": 1509120,
+        "radius": 17.437941392263024
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.459774,
+          25.061564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新埔",
+        "enter": 13482070,
+        "exit": 13120735,
+        "radius": 51.5779070920874
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.467496,
+          25.023087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新埔民生",
+        "enter": 570068,
+        "exit": 626317,
+        "radius": 10.937938562636013
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.466839,
+          25.026125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新店",
+        "enter": 4472856,
+        "exit": 3947593,
+        "radius": 29.018009924872516
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.53758,
+          24.95784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新店區公所",
+        "enter": 4265308,
+        "exit": 4388115,
+        "radius": 29.416701038695685
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.541124,
+          24.967393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新莊",
+        "enter": 3745527,
+        "exit": 3831140,
+        "radius": 27.52574612976004
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4524435,
+          25.03630271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "昆陽",
+        "enter": 4770203,
+        "exit": 4775205,
+        "radius": 30.895643705868956
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.592726,
+          25.050319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "明德",
+        "enter": 4287623,
+        "exit": 4196122,
+        "radius": 29.12686903874153
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519153,
+          25.109298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "景安",
+        "enter": 8495264,
+        "exit": 8343556,
+        "radius": 41.03513129015185
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50456,
+          24.993731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "景平",
+        "enter": 993735,
+        "exit": 1122064,
+        "radius": 14.545786331443205
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51625,
+          24.991926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "景美",
+        "enter": 5642801,
+        "exit": 5643577,
+        "radius": 33.59520501500177
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5406932,
+          24.99213264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "木柵",
+        "enter": 1424918,
+        "exit": 1504714,
+        "radius": 17.116167795391586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.573417,
+          24.998174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東湖",
+        "enter": 2893326,
+        "exit": 2980820,
+        "radius": 24.236637555568635
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6108991,
+          25.067189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東門",
+        "enter": 8917853,
+        "exit": 9102778,
+        "radius": 42.45071377491785
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.527994,
+          25.034157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松山",
+        "enter": 9122781,
+        "exit": 8803824,
+        "radius": 42.33982168124944
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.577022,
+          25.050171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松山機場",
+        "enter": 1759029,
+        "exit": 1746100,
+        "radius": 18.721989744682585
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5520427,
+          25.0636308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "松江南京",
+        "enter": 12309476,
+        "exit": 12784149,
+        "radius": 50.09353750734719
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.532388,
+          25.051842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "板新",
+        "enter": 325741,
+        "exit": 327830,
+        "radius": 8.08437381619628
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4722124,
+          25.0144914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "板橋",
+        "enter": 16523382,
+        "exit": 17616988,
+        "radius": 58.42976125229333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.461838,
+          25.0133143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "橋和",
+        "enter": 266129,
+        "exit": 262285,
+        "radius": 7.269209035376544
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.490278,
+          25.004803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "民權西路",
+        "enter": 8071553,
+        "exit": 7938746,
+        "radius": 40.0128716789985
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519454,
+          25.062641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永安市場",
+        "enter": 8447849,
+        "exit": 8679331,
+        "radius": 41.38499728162369
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510962,
+          25.002375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永寧",
+        "enter": 4637469,
+        "exit": 4655465,
+        "radius": 30.484313999170134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4355625,
+          24.966641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "永春",
+        "enter": 6873892,
+        "exit": 6924204,
+        "radius": 37.145788455759025
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57512,
+          25.040995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江子翠",
+        "enter": 9398519,
+        "exit": 9677266,
+        "radius": 43.67583427938154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.471914,
+          25.030298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "海山",
+        "enter": 7690461,
+        "exit": 7833211,
+        "radius": 39.40009137045243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4486097,
+          24.9853885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "淡水",
+        "enter": 12355407,
+        "exit": 11216362,
+        "radius": 48.55076621434517
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.445502,
+          25.168266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "港墘",
+        "enter": 5537449,
+        "exit": 5355202,
+        "radius": 33.00401642224776
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5758005,
+          25.08013028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石牌",
+        "enter": 9733400,
+        "exit": 9960381,
+        "radius": 44.37767569397929
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5152545,
+          25.1149633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "秀朗橋",
+        "enter": 708681,
+        "exit": 785171,
+        "radius": 12.22232383796142
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5253895,
+          24.99053445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "科技大樓",
+        "enter": 4914405,
+        "exit": 4686924,
+        "radius": 30.986011359966938
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543636,
+          25.026154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "竹圍",
+        "enter": 3176976,
+        "exit": 3329457,
+        "radius": 25.507710598954187
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.459713,
+          25.136949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紅樹林",
+        "enter": 4407855,
+        "exit": 4929566,
+        "radius": 30.557193915672293
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4590331,
+          25.15449713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "芝山",
+        "enter": 7910827,
+        "exit": 7967212,
+        "radius": 39.84725712015822
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522636,
+          25.102046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "菜寮",
+        "enter": 3516571,
+        "exit": 3442281,
+        "radius": 26.379636085435298
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.490673,
+          25.05971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬芳社區",
+        "enter": 905386,
+        "exit": 724412,
+        "radius": 12.766354217238371
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5684087,
+          24.99858101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬芳醫院",
+        "enter": 3814542,
+        "exit": 4066331,
+        "radius": 28.07289261903732
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557737,
+          24.999383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬隆",
+        "enter": 3544938,
+        "exit": 3461198,
+        "radius": 26.469106520621356
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538896,
+          25.001367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "葫洲",
+        "enter": 2853288,
+        "exit": 2850014,
+        "radius": 23.881587049440416
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6080683,
+          25.0725096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "蘆洲",
+        "enter": 5097022,
+        "exit": 4671156,
+        "radius": 31.254084533065434
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4647333,
+          25.0913266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "行天宮",
+        "enter": 9307650,
+        "exit": 9466316,
+        "radius": 43.328934904980066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.533047,
+          25.05810168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西湖",
+        "enter": 4543147,
+        "exit": 4570853,
+        "radius": 30.18940211398695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.566647,
+          25.082339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西門",
+        "enter": 24501084,
+        "exit": 25043745,
+        "radius": 70.388087770588
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.507566,
+          25.042137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "象山",
+        "enter": 4714378,
+        "exit": 4413708,
+        "radius": 30.212722485734382
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.569334,
+          25.0330078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "輔大",
+        "enter": 3532773,
+        "exit": 3682059,
+        "radius": 26.86043931137389
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.435264,
+          25.032932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "辛亥",
+        "enter": 1187489,
+        "exit": 1133633,
+        "radius": 15.235228911965846
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557021,
+          25.005119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "迴龍",
+        "enter": 3936617,
+        "exit": 3673600,
+        "radius": 27.58662175765637
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.411195,
+          25.021829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "關渡",
+        "enter": 4337434,
+        "exit": 4451093,
+        "radius": 29.645449903821664
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.467215,
+          25.125431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "雙連",
+        "enter": 7410240,
+        "exit": 7757440,
+        "radius": 38.94570579666005
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.520588,
+          25.057499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "頂埔",
+        "enter": 3344262,
+        "exit": 3125120,
+        "radius": 25.434979850591585
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4183364,
+          24.9593267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "頂溪",
+        "enter": 11670573,
+        "exit": 11938305,
+        "radius": 48.58896788366677
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.515414,
+          25.012895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "頭前庄",
+        "enter": 2226520,
+        "exit": 2202993,
+        "radius": 21.046408244638798
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.460303,
+          25.039844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "麟光",
+        "enter": 1522056,
+        "exit": 1446589,
+        "radius": 17.22975623739349
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.558606,
+          25.018554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "龍山寺",
+        "enter": 10143433,
+        "exit": 9961888,
+        "radius": 44.838957391982255
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.49953,
+          25.035484
+        ]
+      }
+    }
+  ]
+}
